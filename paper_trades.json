@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T20:48:17Z",
+  "updated_at": "2026-10-02T23:36:24Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -324,6 +324,19 @@
       "status": "missed",
       "hourly_snapshots": [],
       "entry_error": "entry_window_expired"
+    },
+    {
+      "trade_id": "2026-10-02T23:35:54Z|6HUzkSW7MFTEiE6dKxtbK787Vs9tpEPm1PbLnZtUpump",
+      "address": "6HUzkSW7MFTEiE6dKxtbK787Vs9tpEPm1PbLnZtUpump",
+      "name": "undra",
+      "symbol": "undra",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-02T23:35:54Z",
+      "entry_after": "2026-10-02T23:55:54Z",
+      "entry_expires_at": "2026-10-03T00:55:54Z",
+      "scan_market_cap_usd": 50859.71,
+      "status": "pending",
+      "hourly_snapshots": []
     }
   ]
 }
