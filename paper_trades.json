@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T08:52:13Z",
+  "updated_at": "2026-10-02T09:04:37Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -262,6 +262,20 @@
       "scan_market_cap_usd": 122221.39,
       "status": "pending",
       "hourly_snapshots": []
+    },
+    {
+      "trade_id": "2026-10-02T09:04:26Z|7sFpU77bL61uYxXy9jYHFhrSn7xdzSRjeHNE4uvh1tm1",
+      "address": "7sFpU77bL61uYxXy9jYHFhrSn7xdzSRjeHNE4uvh1tm1",
+      "name": "fka AI",
+      "symbol": "fkaAI",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-02T09:04:26Z",
+      "entry_after": "2026-10-02T09:04:26Z",
+      "entry_expires_at": "2026-10-02T09:34:26Z",
+      "scan_market_cap_usd": 123120.96,
+      "status": "entry_failed",
+      "hourly_snapshots": [],
+      "entry_error": "price_unavailable"
     }
   ]
 }
