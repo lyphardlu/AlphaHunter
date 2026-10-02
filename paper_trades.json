@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T09:04:37Z",
+  "updated_at": "2026-10-02T09:09:01Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -273,6 +273,20 @@
       "entry_after": "2026-10-02T09:04:26Z",
       "entry_expires_at": "2026-10-02T09:34:26Z",
       "scan_market_cap_usd": 123120.96,
+      "status": "entry_failed",
+      "hourly_snapshots": [],
+      "entry_error": "price_unavailable"
+    },
+    {
+      "trade_id": "2026-10-02T09:08:57Z|BxXHtetGQPJxzcForNFZpiR5Z2j1EWvrMPofYhvKagU5",
+      "address": "BxXHtetGQPJxzcForNFZpiR5Z2j1EWvrMPofYhvKagU5",
+      "name": "One Life Its Worth An Attempt",
+      "symbol": "WORTH",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-02T09:08:57Z",
+      "entry_after": "2026-10-02T09:08:57Z",
+      "entry_expires_at": "2026-10-02T10:08:57Z",
+      "scan_market_cap_usd": 54148.43,
       "status": "entry_failed",
       "hourly_snapshots": [],
       "entry_error": "price_unavailable"
