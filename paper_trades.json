@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T12:36:59Z",
+  "updated_at": "2026-10-03T15:04:32Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -366,6 +366,19 @@
       "status": "missed",
       "hourly_snapshots": [],
       "entry_error": "entry_window_expired"
+    },
+    {
+      "trade_id": "2026-10-03T15:04:24Z|95hjbNVdDHr7MVLFGNBq1DewSRrURPgC6JkdGE34Sehd",
+      "address": "95hjbNVdDHr7MVLFGNBq1DewSRrURPgC6JkdGE34Sehd",
+      "name": "Goku",
+      "symbol": "Goku",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-03T15:04:24Z",
+      "entry_after": "2026-10-03T15:24:24Z",
+      "entry_expires_at": "2026-10-03T16:24:24Z",
+      "scan_market_cap_usd": 132163.4,
+      "status": "pending",
+      "hourly_snapshots": []
     }
   ]
 }
