@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T06:36:46Z",
+  "updated_at": "2026-10-03T10:15:23Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -352,6 +352,19 @@
       "status": "missed",
       "hourly_snapshots": [],
       "entry_error": "entry_window_expired"
+    },
+    {
+      "trade_id": "2026-10-03T10:15:20Z|pd9txzevVNo8Lb9WgCs69d2yxYsBUh41JxMJfzKUukv",
+      "address": "pd9txzevVNo8Lb9WgCs69d2yxYsBUh41JxMJfzKUukv",
+      "name": "Care Bond",
+      "symbol": "CAREBOND",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-03T10:15:20Z",
+      "entry_after": "2026-10-03T10:35:20Z",
+      "entry_expires_at": "2026-10-03T11:35:20Z",
+      "scan_market_cap_usd": 127045.85,
+      "status": "pending",
+      "hourly_snapshots": []
     }
   ]
 }
