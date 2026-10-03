@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T00:32:43Z",
+  "updated_at": "2026-10-03T04:16:58Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -338,6 +338,19 @@
       "status": "entry_failed",
       "hourly_snapshots": [],
       "entry_error": "price_unavailable"
+    },
+    {
+      "trade_id": "2026-10-03T04:16:45Z|9BHKEALBh5cFdKuSzvhXxFroKokMzkALYEiZSRQGyiJ6",
+      "address": "9BHKEALBh5cFdKuSzvhXxFroKokMzkALYEiZSRQGyiJ6",
+      "name": "Artificial Influencer",
+      "symbol": "AI",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-03T04:16:45Z",
+      "entry_after": "2026-10-03T04:36:45Z",
+      "entry_expires_at": "2026-10-03T05:36:45Z",
+      "scan_market_cap_usd": 198837.21,
+      "status": "pending",
+      "hourly_snapshots": []
     }
   ]
 }
