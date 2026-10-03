@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T21:24:58Z",
+  "updated_at": "2026-10-03T22:44:22Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -394,6 +394,19 @@
       "status": "missed",
       "hourly_snapshots": [],
       "entry_error": "entry_window_expired"
+    },
+    {
+      "trade_id": "2026-10-03T22:44:01Z|6AhnMm3RgyNV949pMVM6YBNXPdBW2pawkvSYCv5R7MLj",
+      "address": "6AhnMm3RgyNV949pMVM6YBNXPdBW2pawkvSYCv5R7MLj",
+      "name": " Debtcoin",
+      "symbol": "DEBT",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-03T22:44:01Z",
+      "entry_after": "2026-10-03T23:04:01Z",
+      "entry_expires_at": "2026-10-04T00:04:01Z",
+      "scan_market_cap_usd": 61225.99,
+      "status": "pending",
+      "hourly_snapshots": []
     }
   ]
 }
