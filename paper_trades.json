@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T17:24:58Z",
+  "updated_at": "2026-10-03T19:05:04Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -380,6 +380,19 @@
       "status": "missed",
       "hourly_snapshots": [],
       "entry_error": "entry_window_expired"
+    },
+    {
+      "trade_id": "2026-10-03T19:04:55Z|Bfu7qTasNd1R2bC9TKJ37UTiMaxHHBY3C6Zr1ANjTNco",
+      "address": "Bfu7qTasNd1R2bC9TKJ37UTiMaxHHBY3C6Zr1ANjTNco",
+      "name": "CLAUDIA",
+      "symbol": "CLAUDIA",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-03T19:04:55Z",
+      "entry_after": "2026-10-03T19:24:55Z",
+      "entry_expires_at": "2026-10-03T20:24:55Z",
+      "scan_market_cap_usd": 52065.68,
+      "status": "pending",
+      "hourly_snapshots": []
     }
   ]
 }
