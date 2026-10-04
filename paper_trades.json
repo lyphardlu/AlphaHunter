@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T13:16:47Z",
+  "updated_at": "2026-10-04T15:10:57Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -436,6 +436,19 @@
       "status": "missed",
       "hourly_snapshots": [],
       "entry_error": "entry_window_expired"
+    },
+    {
+      "trade_id": "2026-10-04T15:10:50Z|57AW1NV24dT9rRu8Ndj9J3ZEVFmBXFWpVP7Z3eRS87JR",
+      "address": "57AW1NV24dT9rRu8Ndj9J3ZEVFmBXFWpVP7Z3eRS87JR",
+      "name": "RedBull official",
+      "symbol": "Redbull",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-04T15:10:50Z",
+      "entry_after": "2026-10-04T15:30:50Z",
+      "entry_expires_at": "2026-10-04T16:30:50Z",
+      "scan_market_cap_usd": 146105.59,
+      "status": "pending",
+      "hourly_snapshots": []
     }
   ]
 }
