@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T09:26:39Z",
+  "updated_at": "2026-10-04T13:16:47Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -433,8 +433,9 @@
       "entry_after": "2026-10-04T09:46:35Z",
       "entry_expires_at": "2026-10-04T10:46:35Z",
       "scan_market_cap_usd": 132561.49,
-      "status": "pending",
-      "hourly_snapshots": []
+      "status": "missed",
+      "hourly_snapshots": [],
+      "entry_error": "entry_window_expired"
     }
   ]
 }
