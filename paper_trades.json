@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T17:39:40Z",
+  "updated_at": "2026-10-04T19:17:05Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -450,6 +450,19 @@
       "status": "missed",
       "hourly_snapshots": [],
       "entry_error": "entry_window_expired"
+    },
+    {
+      "trade_id": "2026-10-04T19:16:56Z|XbMWCTYVgFMmPrd8B28avBoozh5RnHQ8vVow1x9xmDT",
+      "address": "XbMWCTYVgFMmPrd8B28avBoozh5RnHQ8vVow1x9xmDT",
+      "name": "aurakidzzz",
+      "symbol": "aurakidzzz",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-04T19:16:56Z",
+      "entry_after": "2026-10-04T19:36:56Z",
+      "entry_expires_at": "2026-10-04T20:36:56Z",
+      "scan_market_cap_usd": 99009.95,
+      "status": "pending",
+      "hourly_snapshots": []
     }
   ]
 }
