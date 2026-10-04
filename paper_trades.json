@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T00:43:57Z",
+  "updated_at": "2026-10-04T02:27:13Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -408,6 +408,19 @@
       "status": "missed",
       "hourly_snapshots": [],
       "entry_error": "entry_window_expired"
+    },
+    {
+      "trade_id": "2026-10-04T02:26:56Z|8r5faMhtYbc7gp411LQt9oqzQybRfy6LG2FJauTsfnKg",
+      "address": "8r5faMhtYbc7gp411LQt9oqzQybRfy6LG2FJauTsfnKg",
+      "name": "Orbit",
+      "symbol": "ORBIT",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-04T02:26:56Z",
+      "entry_after": "2026-10-04T02:46:56Z",
+      "entry_expires_at": "2026-10-04T03:46:56Z",
+      "scan_market_cap_usd": 172611.63,
+      "status": "pending",
+      "hourly_snapshots": []
     }
   ]
 }
