@@ -1,6 +1,26 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T13:20:51Z",
-  "seen_addresses": [],
-  "positions": []
+  "updated_at": "2026-10-05T13:27:40Z",
+  "seen_addresses": [
+    "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk"
+  ],
+  "positions": [
+    {
+      "trade_id": "2026-10-05T13:27:31Z|A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
+      "address": "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
+      "name": "Louis Vuitton",
+      "symbol": "LV",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-05T13:27:31Z",
+      "entry_at": "2026-10-05T13:27:31Z",
+      "status": "open",
+      "scan_market_cap_usd": 139533.46,
+      "entry_price_usd": 0.0001388,
+      "quantity": 72046.10951008645,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001388,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0
+    }
+  ]
 }
