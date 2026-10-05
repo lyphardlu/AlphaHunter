@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T01:01:33Z",
+  "updated_at": "2026-10-05T01:42:04Z",
   "seen_addresses": [],
   "positions": [
     {
@@ -464,6 +464,19 @@
       "status": "missed",
       "hourly_snapshots": [],
       "entry_error": "entry_window_expired"
+    },
+    {
+      "trade_id": "2026-10-05T01:41:56Z|D6f71N4KD5hRVLqsvcbCoeKSTY9SqaYWAhrhcvw5pump",
+      "address": "D6f71N4KD5hRVLqsvcbCoeKSTY9SqaYWAhrhcvw5pump",
+      "name": "AIKOL",
+      "symbol": "AIKOL",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-05T01:41:56Z",
+      "entry_after": "2026-10-05T02:01:56Z",
+      "entry_expires_at": "2026-10-05T03:01:56Z",
+      "scan_market_cap_usd": 166963.61,
+      "status": "pending",
+      "hourly_snapshots": []
     }
   ]
 }
