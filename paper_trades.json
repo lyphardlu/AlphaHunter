@@ -1,10 +1,11 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-07T12:02:59Z",
+  "updated_at": "2026-10-07T16:04:14Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
-    "CiFS3yP1bueXRPVNrL9by2RpyTFx2XRKqEfsJnKwUJnp"
+    "CiFS3yP1bueXRPVNrL9by2RpyTFx2XRKqEfsJnKwUJnp",
+    "6fV1pVMPazvgFPQrkNByzVaj3jNpYp3dWBXv7oSPZoFZ"
   ],
   "positions": [
     {
@@ -57,12 +58,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-07T12:02:56Z",
       "entry_at": "2026-10-07T12:02:56Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 146446.69,
       "entry_price_usd": 0.0001457,
       "quantity": 68634.17982155114,
       "quote_status": "ok",
       "last_price_usd": 0.0001457,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-07T16:03:47Z",
+      "exit_price_usd": 0.0001494,
+      "realized_pnl_usd": 0.253946,
+      "realized_return_percent": 2.5395
+    },
+    {
+      "trade_id": "2026-10-07T16:03:47Z|6fV1pVMPazvgFPQrkNByzVaj3jNpYp3dWBXv7oSPZoFZ",
+      "address": "6fV1pVMPazvgFPQrkNByzVaj3jNpYp3dWBXv7oSPZoFZ",
+      "name": "Luckin coffee",
+      "symbol": "Luckin",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-07T16:03:47Z",
+      "entry_at": "2026-10-07T16:03:47Z",
+      "status": "open",
+      "scan_market_cap_usd": 136379.87,
+      "entry_price_usd": 0.0001361,
+      "quantity": 73475.38574577516,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001361,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
