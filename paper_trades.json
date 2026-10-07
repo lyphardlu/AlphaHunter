@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-07T11:44:43Z",
+  "updated_at": "2026-10-07T11:50:06Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo"
@@ -31,14 +31,18 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-07T11:44:12Z",
       "entry_at": "2026-10-07T11:44:12Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 108437.87,
       "entry_price_usd": 0.0001092,
       "quantity": 91575.09157509157,
       "quote_status": "ok",
       "last_price_usd": 0.0001092,
       "unrealized_pnl_usd": 0.0,
-      "unrealized_return_percent": 0.0
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-07T11:49:44Z",
+      "exit_price_usd": 0.0001215,
+      "realized_pnl_usd": 1.126374,
+      "realized_return_percent": 11.2637
     }
   ]
 }
