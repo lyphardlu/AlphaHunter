@@ -1,8 +1,9 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-05T13:27:40Z",
+  "updated_at": "2026-10-07T11:44:43Z",
   "seen_addresses": [
-    "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk"
+    "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
+    "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo"
   ],
   "positions": [
     {
@@ -17,8 +18,25 @@
       "scan_market_cap_usd": 139533.46,
       "entry_price_usd": 0.0001388,
       "quantity": 72046.10951008645,
-      "quote_status": "ok",
+      "quote_status": "stale",
       "last_price_usd": 0.0001388,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0
+    },
+    {
+      "trade_id": "2026-10-07T11:44:12Z|CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
+      "address": "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
+      "name": "JUST BUY IT",
+      "symbol": "NIKE",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-07T11:44:12Z",
+      "entry_at": "2026-10-07T11:44:12Z",
+      "status": "open",
+      "scan_market_cap_usd": 108437.87,
+      "entry_price_usd": 0.0001092,
+      "quantity": 91575.09157509157,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001092,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
