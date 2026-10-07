@@ -1,9 +1,10 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-07T11:50:06Z",
+  "updated_at": "2026-10-07T12:02:59Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
-    "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo"
+    "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
+    "CiFS3yP1bueXRPVNrL9by2RpyTFx2XRKqEfsJnKwUJnp"
   ],
   "positions": [
     {
@@ -14,14 +15,18 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-05T13:27:31Z",
       "entry_at": "2026-10-05T13:27:31Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 139533.46,
       "entry_price_usd": 0.0001388,
       "quantity": 72046.10951008645,
-      "quote_status": "stale",
+      "quote_status": "rugged",
       "last_price_usd": 0.0001388,
       "unrealized_pnl_usd": 0.0,
-      "unrealized_return_percent": 0.0
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-07T12:02:56Z",
+      "exit_price_usd": 0.0,
+      "realized_pnl_usd": -10.0,
+      "realized_return_percent": -100.0
     },
     {
       "trade_id": "2026-10-07T11:44:12Z|CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -43,6 +48,23 @@
       "exit_price_usd": 0.0001215,
       "realized_pnl_usd": 1.126374,
       "realized_return_percent": 11.2637
+    },
+    {
+      "trade_id": "2026-10-07T12:02:56Z|CiFS3yP1bueXRPVNrL9by2RpyTFx2XRKqEfsJnKwUJnp",
+      "address": "CiFS3yP1bueXRPVNrL9by2RpyTFx2XRKqEfsJnKwUJnp",
+      "name": "phantom",
+      "symbol": "Phantom",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-07T12:02:56Z",
+      "entry_at": "2026-10-07T12:02:56Z",
+      "status": "open",
+      "scan_market_cap_usd": 146446.69,
+      "entry_price_usd": 0.0001457,
+      "quantity": 68634.17982155114,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001457,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0
     }
   ]
 }
