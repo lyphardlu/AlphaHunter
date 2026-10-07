@@ -185,7 +185,6 @@
                 renderDashboard(data);
             } catch (err) {
                 console.error("載入失敗:", err);
-                // alert("無法讀取 paper_trades.json。請確保你在本地啟動了伺服器 (如 python -m http.server 8000)。");
             }
         }
 
@@ -211,7 +210,11 @@
 
             const openHtml = openPos.length ? openPos.map(p => `
                 <tr class="hover:bg-gray-700/30 transition border-b border-gray-700">
-                    <td class="p-4 font-bold text-white">${p.name} <span class="text-xs text-gray-500 ml-1">(${p.symbol})</span></td>
+                    <td class="p-4 font-bold">
+                        <a href="https://gmgn.ai/sol/token/${p.address}" target="_blank" class="text-white hover:text-emerald-400 transition-colors flex items-center w-max group" title="在 GMGN 查看圖表">
+                            ${p.name} <span class="text-xs text-gray-500 ml-1 group-hover:text-gray-300">(${p.symbol})</span>
+                        </a>
+                    </td>
                     <td class="p-4 font-mono text-xs text-gray-400">${formatTime(p.entry_at)}</td>
                     <td class="p-4 font-mono text-gray-300">${formatMoney(p.invested_usd, 2)}</td>
                     <td class="p-4 font-mono text-gray-300">${formatMoney(p.entry_price_usd, 6)}</td>
@@ -225,7 +228,11 @@
 
             const pendingHtml = pendingPos.length ? pendingPos.map(p => `
                 <tr class="hover:bg-gray-700/30 transition border-b border-gray-700">
-                    <td class="p-4 font-bold text-white">${p.name} <span class="text-xs text-gray-500 ml-1">(${p.symbol})</span></td>
+                    <td class="p-4 font-bold">
+                        <a href="https://gmgn.ai/sol/token/${p.address}" target="_blank" class="text-white hover:text-emerald-400 transition-colors flex items-center w-max group" title="在 GMGN 查看圖表">
+                            ${p.name} <span class="text-xs text-gray-500 ml-1 group-hover:text-gray-300">(${p.symbol})</span>
+                        </a>
+                    </td>
                     <td class="p-4 font-mono text-xs text-gray-400">${formatTime(p.scan_at)}</td>
                     <td class="p-4 font-mono text-xs text-yellow-400">${formatTime(p.entry_after)}</td>
                     <td class="p-4 font-mono text-xs text-gray-500">${formatTime(p.entry_expires_at)}</td>
@@ -236,18 +243,22 @@
             document.getElementById('pending-tbody').innerHTML = pendingHtml;
 
             const closedHtml = closedPos.length ? closedPos.map(p => {
-                // 判斷是否為歸零 RUG
                 const isRug = p.quote_status === 'rugged';
                 
-                // 動態決定名稱顯示與背景顏色
                 const rowBg = isRug ? 'bg-red-900/10 hover:bg-red-900/20' : 'hover:bg-gray-700/30';
+                
+                // 將名稱加上動態 Hover 效果
                 const nameDisplay = isRug 
-                    ? `<span class="text-red-400 line-through opacity-80">${p.name}</span> <span class="text-[10px] bg-red-500/20 text-red-400 border border-red-500/50 px-1.5 py-0.5 rounded ml-2 font-mono tracking-widest animate-pulse">RUG</span>`
-                    : `<span class="text-white">${p.name}</span>`;
+                    ? `<span class="text-red-400 line-through opacity-80 group-hover:text-red-300 transition-colors">${p.name}</span> <span class="text-[10px] bg-red-500/20 text-red-400 border border-red-500/50 px-1.5 py-0.5 rounded ml-2 font-mono tracking-widest animate-pulse">RUG</span>`
+                    : `<span class="text-white group-hover:text-emerald-400 transition-colors">${p.name}</span>`;
 
                 return `
                 <tr class="transition border-b border-gray-700 ${rowBg}">
-                    <td class="p-4 font-bold">${nameDisplay} <span class="text-xs text-gray-500 ml-1">(${p.symbol})</span></td>
+                    <td class="p-4 font-bold">
+                        <a href="https://gmgn.ai/sol/token/${p.address}" target="_blank" class="flex items-center w-max group" title="在 GMGN 查看圖表">
+                            ${nameDisplay} <span class="text-xs text-gray-500 ml-1 group-hover:text-gray-300 transition-colors">(${p.symbol})</span>
+                        </a>
+                    </td>
                     <td class="p-4 font-mono text-xs text-gray-400">
                         In: ${formatTime(p.entry_at)}<br>Out: ${formatTime(p.exit_at)}
                     </td>
