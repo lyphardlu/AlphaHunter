@@ -57,19 +57,16 @@
         <!-- 績效總覽 -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10" id="summary-cards">
             <div class="bg-gray-800 p-5 rounded-lg border border-gray-700 shadow-sm">
-                <div class="text-gray-400 text-sm mb-1">未實現損益 (Unrealized)</div>
-                <div id="sum-unrealized" class="text-2xl font-bold font-mono">-</div>
+                <div class="text-gray-400 text-sm mb-1">累計總投入本金 (Total Invested)</div>
+                <div id="sum-total-invested" class="text-2xl font-bold font-mono text-white">-</div>
             </div>
             <div class="bg-gray-800 p-5 rounded-lg border border-gray-700 shadow-sm">
                 <div class="text-gray-400 text-sm mb-1">已實現損益 (Realized)</div>
                 <div id="sum-realized" class="text-2xl font-bold font-mono">-</div>
             </div>
             <div class="bg-gray-800 p-5 rounded-lg border border-gray-700 shadow-sm">
-                <div class="text-gray-400 text-sm mb-1">投入本金 (當前開倉 / 累計總額)</div>
-                <div class="text-2xl font-bold font-mono text-white">
-                    <span id="sum-cost">-</span>
-                    <span class="text-sm text-gray-500 font-normal ml-1">/ <span id="sum-total-invested">-</span></span>
-                </div>
+                <div class="text-gray-400 text-sm mb-1">當前開倉成本 (Open Cost)</div>
+                <div id="sum-cost" class="text-2xl font-bold font-mono text-white">-</div>
             </div>
             <div class="bg-gray-800 p-5 rounded-lg border border-gray-700 shadow-sm">
                 <div class="text-gray-400 text-sm mb-1">部位統計</div>
@@ -81,7 +78,7 @@
             </div>
         </div>
 
-        <!-- 🟢 開倉部位 -->
+        <!-- 🟢 當前持倉 -->
         <section class="mb-10">
             <h2 class="text-xl font-bold mb-4 border-l-4 border-green-500 pl-3">🟢 當前持倉 (Open Positions)</h2>
             <div class="overflow-x-auto bg-gray-800 rounded-lg shadow border border-gray-700">
@@ -93,13 +90,11 @@
                             <th class="p-4 font-semibold">本金</th>
                             <th class="p-4 font-semibold">進場價</th>
                             <th class="p-4 font-semibold">最新價</th>
-                            <th class="p-4 font-semibold">未實現損益</th>
-                            <th class="p-4 font-semibold">報酬率</th>
                             <th class="p-4 font-semibold">合約地址</th>
                         </tr>
                     </thead>
                     <tbody id="open-tbody" class="divide-y divide-gray-700">
-                        <tr><td colspan="8" class="p-4 text-center text-gray-500">載入中...</td></tr>
+                        <tr><td colspan="6" class="p-4 text-center text-gray-500">載入中...</td></tr>
                     </tbody>
                 </table>
             </div>
@@ -200,19 +195,21 @@
             const pendingPos = positions.filter(p => p.status === 'pending');
             const closedPos = positions.filter(p => p.status === 'closed');
 
+            // 計算各項金額
             const sumCost = openPos.reduce((sum, p) => sum + (p.invested_usd || 0), 0);
             const sumTotalInvested = positions.reduce((sum, p) => sum + (p.invested_usd || 0), 0);
-            const sumUnrealized = openPos.reduce((sum, p) => sum + (p.unrealized_pnl_usd || 0), 0);
             const sumRealized = closedPos.reduce((sum, p) => sum + (p.realized_pnl_usd || 0), 0);
 
-            document.getElementById('sum-cost').innerText = formatMoney(sumCost, 2);
+            // 綁定上方四個卡片
             document.getElementById('sum-total-invested').innerText = formatMoney(sumTotalInvested, 2);
-            document.getElementById('sum-unrealized').innerHTML = formatPnL(sumUnrealized);
             document.getElementById('sum-realized').innerHTML = formatPnL(sumRealized);
+            document.getElementById('sum-cost').innerText = formatMoney(sumCost, 2);
+            
             document.getElementById('count-open').innerText = openPos.length;
             document.getElementById('count-pending').innerText = pendingPos.length;
             document.getElementById('count-closed').innerText = closedPos.length;
 
+            // 渲染：當前持倉 (移除了未實現損益與報酬率欄位)
             const openHtml = openPos.length ? openPos.map(p => `
                 <tr class="hover:bg-gray-700/30 transition border-b border-gray-700">
                     <td class="p-4 font-bold">
@@ -224,13 +221,12 @@
                     <td class="p-4 font-mono text-gray-300">${formatMoney(p.invested_usd, 2)}</td>
                     <td class="p-4 font-mono text-gray-300">${formatMoney(p.entry_price_usd, 6)}</td>
                     <td class="p-4 font-mono text-white">${formatMoney(p.last_price_usd, 6)}</td>
-                    <td class="p-4 font-mono">${formatPnL(p.unrealized_pnl_usd)}</td>
-                    <td class="p-4 font-mono">${formatPct(p.unrealized_return_percent)}</td>
                     <td class="p-4 font-mono text-xs text-blue-400 cursor-pointer hover:text-blue-300 underline" onclick="copyToClipboard('${p.address}')" title="點擊複製">${p.address.substring(0,6)}...${p.address.substring(p.address.length-4)}</td>
                 </tr>
-            `).join('') : `<tr><td colspan="8" class="p-4 text-center text-gray-500">目前沒有開倉部位</td></tr>`;
+            `).join('') : `<tr><td colspan="6" class="p-4 text-center text-gray-500">目前沒有開倉部位</td></tr>`;
             document.getElementById('open-tbody').innerHTML = openHtml;
 
+            // 渲染：待進場清單
             const pendingHtml = pendingPos.length ? pendingPos.map(p => `
                 <tr class="hover:bg-gray-700/30 transition border-b border-gray-700">
                     <td class="p-4 font-bold">
@@ -247,11 +243,10 @@
             `).join('') : `<tr><td colspan="6" class="p-4 text-center text-gray-500">沒有等待進場的代幣</td></tr>`;
             document.getElementById('pending-tbody').innerHTML = pendingHtml;
 
+            // 渲染：歷史平倉
             const closedHtml = closedPos.length ? closedPos.map(p => {
                 const isRug = p.quote_status === 'rugged';
-                
                 const rowBg = isRug ? 'bg-red-900/10 hover:bg-red-900/20' : 'hover:bg-gray-700/30';
-                
                 const nameDisplay = isRug 
                     ? `<span class="text-red-400 line-through opacity-80 group-hover:text-red-300 transition-colors">${p.name}</span> <span class="text-[10px] bg-red-500/20 text-red-400 border border-red-500/50 px-1.5 py-0.5 rounded ml-2 font-mono tracking-widest animate-pulse">RUG</span>`
                     : `<span class="text-white group-hover:text-emerald-400 transition-colors">${p.name}</span>`;
@@ -276,7 +271,6 @@
                 </tr>
                 `;
             }).join('') : `<tr><td colspan="6" class="p-4 text-center text-gray-500">尚無平倉歷史</td></tr>`;
-            
             document.getElementById('closed-tbody').innerHTML = closedHtml;
         }
 
