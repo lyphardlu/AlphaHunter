@@ -1,12 +1,13 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-08T00:16:53Z",
+  "updated_at": "2026-10-08T16:05:49Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
     "CiFS3yP1bueXRPVNrL9by2RpyTFx2XRKqEfsJnKwUJnp",
     "6fV1pVMPazvgFPQrkNByzVaj3jNpYp3dWBXv7oSPZoFZ",
-    "9MCLVEQVxPbNUmCvNFgviYTpNrsAWM46tcZphgpqxJpj"
+    "9MCLVEQVxPbNUmCvNFgviYTpNrsAWM46tcZphgpqxJpj",
+    "CBS88sY3UFnT46txPt9XDsoUnfJGnqiu3mmEdWkTKC64"
   ],
   "positions": [
     {
@@ -101,12 +102,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-08T00:16:38Z",
       "entry_at": "2026-10-08T00:16:38Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 190768.3,
       "entry_price_usd": 0.000188,
       "quantity": 53191.48936170213,
       "quote_status": "ok",
       "last_price_usd": 0.000188,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-08T16:05:47Z",
+      "exit_price_usd": 0.0001326,
+      "realized_pnl_usd": -2.946809,
+      "realized_return_percent": -29.4681
+    },
+    {
+      "trade_id": "2026-10-08T16:05:47Z|CBS88sY3UFnT46txPt9XDsoUnfJGnqiu3mmEdWkTKC64",
+      "address": "CBS88sY3UFnT46txPt9XDsoUnfJGnqiu3mmEdWkTKC64",
+      "name": "Offchain",
+      "symbol": "Offchain",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-08T16:05:47Z",
+      "entry_at": "2026-10-08T16:05:47Z",
+      "status": "open",
+      "scan_market_cap_usd": 85335.02,
+      "entry_price_usd": 8.334e-05,
+      "quantity": 119990.40076793857,
+      "quote_status": "ok",
+      "last_price_usd": 8.334e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
