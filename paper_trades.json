@@ -1,11 +1,12 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-07T16:04:14Z",
+  "updated_at": "2026-10-08T00:16:53Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
     "CiFS3yP1bueXRPVNrL9by2RpyTFx2XRKqEfsJnKwUJnp",
-    "6fV1pVMPazvgFPQrkNByzVaj3jNpYp3dWBXv7oSPZoFZ"
+    "6fV1pVMPazvgFPQrkNByzVaj3jNpYp3dWBXv7oSPZoFZ",
+    "9MCLVEQVxPbNUmCvNFgviYTpNrsAWM46tcZphgpqxJpj"
   ],
   "positions": [
     {
@@ -79,12 +80,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-07T16:03:47Z",
       "entry_at": "2026-10-07T16:03:47Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 136379.87,
       "entry_price_usd": 0.0001361,
       "quantity": 73475.38574577516,
       "quote_status": "ok",
       "last_price_usd": 0.0001361,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-08T00:16:38Z",
+      "exit_price_usd": 4.019e-08,
+      "realized_pnl_usd": -9.997047,
+      "realized_return_percent": -99.9705
+    },
+    {
+      "trade_id": "2026-10-08T00:16:38Z|9MCLVEQVxPbNUmCvNFgviYTpNrsAWM46tcZphgpqxJpj",
+      "address": "9MCLVEQVxPbNUmCvNFgviYTpNrsAWM46tcZphgpqxJpj",
+      "name": "Giraffe Wif Cap",
+      "symbol": "GIF",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-08T00:16:38Z",
+      "entry_at": "2026-10-08T00:16:38Z",
+      "status": "open",
+      "scan_market_cap_usd": 190768.3,
+      "entry_price_usd": 0.000188,
+      "quantity": 53191.48936170213,
+      "quote_status": "ok",
+      "last_price_usd": 0.000188,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
