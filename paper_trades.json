@@ -1,13 +1,14 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-08T16:05:49Z",
+  "updated_at": "2026-10-09T00:30:47Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
     "CiFS3yP1bueXRPVNrL9by2RpyTFx2XRKqEfsJnKwUJnp",
     "6fV1pVMPazvgFPQrkNByzVaj3jNpYp3dWBXv7oSPZoFZ",
     "9MCLVEQVxPbNUmCvNFgviYTpNrsAWM46tcZphgpqxJpj",
-    "CBS88sY3UFnT46txPt9XDsoUnfJGnqiu3mmEdWkTKC64"
+    "CBS88sY3UFnT46txPt9XDsoUnfJGnqiu3mmEdWkTKC64",
+    "49Qj1Xw4voFAPuXxh456WwUjKfbXxSN2dyFQmHnmBAGS"
   ],
   "positions": [
     {
@@ -123,12 +124,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-08T16:05:47Z",
       "entry_at": "2026-10-08T16:05:47Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 85335.02,
       "entry_price_usd": 8.334e-05,
       "quantity": 119990.40076793857,
       "quote_status": "ok",
       "last_price_usd": 8.334e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-09T00:30:25Z",
+      "exit_price_usd": 8.93e-05,
+      "realized_pnl_usd": 0.715143,
+      "realized_return_percent": 7.1514
+    },
+    {
+      "trade_id": "2026-10-09T00:30:25Z|49Qj1Xw4voFAPuXxh456WwUjKfbXxSN2dyFQmHnmBAGS",
+      "address": "49Qj1Xw4voFAPuXxh456WwUjKfbXxSN2dyFQmHnmBAGS",
+      "name": "vamp",
+      "symbol": "vamp",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-09T00:30:25Z",
+      "entry_at": "2026-10-09T00:30:25Z",
+      "status": "open",
+      "scan_market_cap_usd": 86067.16,
+      "entry_price_usd": 8.518e-05,
+      "quantity": 117398.45034045551,
+      "quote_status": "ok",
+      "last_price_usd": 8.518e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
