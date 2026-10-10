@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-10T14:59:43Z",
+  "updated_at": "2026-10-10T23:41:31Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -11,7 +11,8 @@
     "49Qj1Xw4voFAPuXxh456WwUjKfbXxSN2dyFQmHnmBAGS",
     "Fk8ZuUcLrkUzFo91ktKP45v36GUUxUQcrYCZHgmrBAGS",
     "3MMSvBGBTfJwB3im8PaHXzvaaxYuccay8nXZVgehmoon",
-    "Hv4gmPJoYZ89FkcahFTCr3gQRo5wXAiShWot21vRpump"
+    "Hv4gmPJoYZ89FkcahFTCr3gQRo5wXAiShWot21vRpump",
+    "2teQ2uTgESXmCBXeBr3qYTqkLrZvrgN7zfaTiSS4pump"
   ],
   "positions": [
     {
@@ -211,12 +212,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-10T14:59:39Z",
       "entry_at": "2026-10-10T14:59:39Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 86276.79,
       "entry_price_usd": 8.61e-05,
       "quantity": 116144.01858304297,
       "quote_status": "ok",
       "last_price_usd": 8.61e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-10T23:41:18Z",
+      "exit_price_usd": 0.003637,
+      "realized_pnl_usd": 412.415796,
+      "realized_return_percent": 4124.158
+    },
+    {
+      "trade_id": "2026-10-10T23:41:18Z|2teQ2uTgESXmCBXeBr3qYTqkLrZvrgN7zfaTiSS4pump",
+      "address": "2teQ2uTgESXmCBXeBr3qYTqkLrZvrgN7zfaTiSS4pump",
+      "name": "Tesselai",
+      "symbol": "Tesselai",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-10T23:41:18Z",
+      "entry_at": "2026-10-10T23:41:18Z",
+      "status": "open",
+      "scan_market_cap_usd": 90625.67,
+      "entry_price_usd": 9.013e-05,
+      "quantity": 110950.84877399312,
+      "quote_status": "ok",
+      "last_price_usd": 9.013e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
