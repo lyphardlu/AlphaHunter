@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-09T15:47:59Z",
+  "updated_at": "2026-10-10T00:07:16Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -9,7 +9,8 @@
     "9MCLVEQVxPbNUmCvNFgviYTpNrsAWM46tcZphgpqxJpj",
     "CBS88sY3UFnT46txPt9XDsoUnfJGnqiu3mmEdWkTKC64",
     "49Qj1Xw4voFAPuXxh456WwUjKfbXxSN2dyFQmHnmBAGS",
-    "Fk8ZuUcLrkUzFo91ktKP45v36GUUxUQcrYCZHgmrBAGS"
+    "Fk8ZuUcLrkUzFo91ktKP45v36GUUxUQcrYCZHgmrBAGS",
+    "3MMSvBGBTfJwB3im8PaHXzvaaxYuccay8nXZVgehmoon"
   ],
   "positions": [
     {
@@ -167,12 +168,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-09T15:47:38Z",
       "entry_at": "2026-10-09T15:47:38Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 90154.94,
       "entry_price_usd": 8.996e-05,
       "quantity": 111160.51578479324,
       "quote_status": "ok",
       "last_price_usd": 8.996e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-10T00:06:59Z",
+      "exit_price_usd": 0.008333,
+      "realized_pnl_usd": 916.300578,
+      "realized_return_percent": 9163.0058
+    },
+    {
+      "trade_id": "2026-10-10T00:06:59Z|3MMSvBGBTfJwB3im8PaHXzvaaxYuccay8nXZVgehmoon",
+      "address": "3MMSvBGBTfJwB3im8PaHXzvaaxYuccay8nXZVgehmoon",
+      "name": "Block Raccoon",
+      "symbol": "baccoon",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-10T00:06:59Z",
+      "entry_at": "2026-10-10T00:06:59Z",
+      "status": "open",
+      "scan_market_cap_usd": 100540.48,
+      "entry_price_usd": 0.0001004,
+      "quantity": 99601.593625498,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001004,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
