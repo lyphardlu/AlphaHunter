@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-10T23:41:31Z",
+  "updated_at": "2026-10-11T15:18:27Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -12,7 +12,8 @@
     "Fk8ZuUcLrkUzFo91ktKP45v36GUUxUQcrYCZHgmrBAGS",
     "3MMSvBGBTfJwB3im8PaHXzvaaxYuccay8nXZVgehmoon",
     "Hv4gmPJoYZ89FkcahFTCr3gQRo5wXAiShWot21vRpump",
-    "2teQ2uTgESXmCBXeBr3qYTqkLrZvrgN7zfaTiSS4pump"
+    "2teQ2uTgESXmCBXeBr3qYTqkLrZvrgN7zfaTiSS4pump",
+    "HGhMd143SgEMTBV59Fb2J6nsJZnnd9j23N8dGVqHwKij"
   ],
   "positions": [
     {
@@ -233,12 +234,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-10T23:41:18Z",
       "entry_at": "2026-10-10T23:41:18Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 90625.67,
       "entry_price_usd": 9.013e-05,
       "quantity": 110950.84877399312,
       "quote_status": "ok",
       "last_price_usd": 9.013e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-11T15:18:25Z",
+      "exit_price_usd": 9.94e-05,
+      "realized_pnl_usd": 1.028514,
+      "realized_return_percent": 10.2851
+    },
+    {
+      "trade_id": "2026-10-11T15:18:25Z|HGhMd143SgEMTBV59Fb2J6nsJZnnd9j23N8dGVqHwKij",
+      "address": "HGhMd143SgEMTBV59Fb2J6nsJZnnd9j23N8dGVqHwKij",
+      "name": "Pokemon",
+      "symbol": "POKEMON",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-11T15:18:25Z",
+      "entry_at": "2026-10-11T15:18:25Z",
+      "status": "open",
+      "scan_market_cap_usd": 110839.18,
+      "entry_price_usd": 0.0001097,
+      "quantity": 91157.70282588879,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001097,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
