@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-11T23:47:03Z",
+  "updated_at": "2026-10-12T18:32:05Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -14,7 +14,8 @@
     "Hv4gmPJoYZ89FkcahFTCr3gQRo5wXAiShWot21vRpump",
     "2teQ2uTgESXmCBXeBr3qYTqkLrZvrgN7zfaTiSS4pump",
     "HGhMd143SgEMTBV59Fb2J6nsJZnnd9j23N8dGVqHwKij",
-    "4qd6frXatNSD82HF5cG3mLGuhwgK9AYF8KASk9fgpump"
+    "4qd6frXatNSD82HF5cG3mLGuhwgK9AYF8KASk9fgpump",
+    "7XmESjenTrcY5kB3Mofh9KHHBjG6xbdvE8AkDpDHvi1Q"
   ],
   "positions": [
     {
@@ -277,12 +278,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-11T23:46:41Z",
       "entry_at": "2026-10-11T23:46:41Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 92262.18,
       "entry_price_usd": 9.249e-05,
       "quantity": 108119.79673478214,
       "quote_status": "ok",
       "last_price_usd": 9.249e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-12T18:32:03Z",
+      "exit_price_usd": 6.69,
+      "realized_pnl_usd": 723311.440156,
+      "realized_return_percent": 7233114.4016
+    },
+    {
+      "trade_id": "2026-10-12T18:32:03Z|7XmESjenTrcY5kB3Mofh9KHHBjG6xbdvE8AkDpDHvi1Q",
+      "address": "7XmESjenTrcY5kB3Mofh9KHHBjG6xbdvE8AkDpDHvi1Q",
+      "name": "Bybit",
+      "symbol": "Bybit",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-12T18:32:03Z",
+      "entry_at": "2026-10-12T18:32:03Z",
+      "status": "open",
+      "scan_market_cap_usd": 123941.2,
+      "entry_price_usd": 0.0001235,
+      "quantity": 80971.65991902835,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001235,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
