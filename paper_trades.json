@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-12T18:32:05Z",
+  "updated_at": "2026-10-13T02:08:40Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -15,7 +15,8 @@
     "2teQ2uTgESXmCBXeBr3qYTqkLrZvrgN7zfaTiSS4pump",
     "HGhMd143SgEMTBV59Fb2J6nsJZnnd9j23N8dGVqHwKij",
     "4qd6frXatNSD82HF5cG3mLGuhwgK9AYF8KASk9fgpump",
-    "7XmESjenTrcY5kB3Mofh9KHHBjG6xbdvE8AkDpDHvi1Q"
+    "7XmESjenTrcY5kB3Mofh9KHHBjG6xbdvE8AkDpDHvi1Q",
+    "DeUQuCgd2rY72mHzUu2hQz8VardouCtstgfGi26Egf6W"
   ],
   "positions": [
     {
@@ -299,12 +300,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-12T18:32:03Z",
       "entry_at": "2026-10-12T18:32:03Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 123941.2,
       "entry_price_usd": 0.0001235,
       "quantity": 80971.65991902835,
       "quote_status": "ok",
       "last_price_usd": 0.0001235,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-13T02:08:18Z",
+      "exit_price_usd": 0.0001354,
+      "realized_pnl_usd": 0.963563,
+      "realized_return_percent": 9.6356
+    },
+    {
+      "trade_id": "2026-10-13T02:08:18Z|DeUQuCgd2rY72mHzUu2hQz8VardouCtstgfGi26Egf6W",
+      "address": "DeUQuCgd2rY72mHzUu2hQz8VardouCtstgfGi26Egf6W",
+      "name": "스타벅스",
+      "symbol": "Starbucks",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-13T02:08:18Z",
+      "entry_at": "2026-10-13T02:08:18Z",
+      "status": "open",
+      "scan_market_cap_usd": 130560.82,
+      "entry_price_usd": 0.0001302,
+      "quantity": 76804.91551459294,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001302,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
