@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-13T16:41:55Z",
+  "updated_at": "2026-10-13T23:46:57Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -17,7 +17,8 @@
     "4qd6frXatNSD82HF5cG3mLGuhwgK9AYF8KASk9fgpump",
     "7XmESjenTrcY5kB3Mofh9KHHBjG6xbdvE8AkDpDHvi1Q",
     "DeUQuCgd2rY72mHzUu2hQz8VardouCtstgfGi26Egf6W",
-    "BrE1o9q7wtGqRduoeMhfVP6idCtHUk5mPTLVNhJXGM8U"
+    "BrE1o9q7wtGqRduoeMhfVP6idCtHUk5mPTLVNhJXGM8U",
+    "Hi1ovtASTdDTDG15hAVtLdaTf6iugSxKFU2dcoDyGypy"
   ],
   "positions": [
     {
@@ -343,12 +344,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-13T16:41:40Z",
       "entry_at": "2026-10-13T16:41:40Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 112035.77,
       "entry_price_usd": 0.000111,
       "quantity": 90090.09009009009,
       "quote_status": "ok",
       "last_price_usd": 0.000111,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-13T23:46:46Z",
+      "exit_price_usd": 0.0001387,
+      "realized_pnl_usd": 2.495495,
+      "realized_return_percent": 24.955
+    },
+    {
+      "trade_id": "2026-10-13T23:46:46Z|Hi1ovtASTdDTDG15hAVtLdaTf6iugSxKFU2dcoDyGypy",
+      "address": "Hi1ovtASTdDTDG15hAVtLdaTf6iugSxKFU2dcoDyGypy",
+      "name": "STONK",
+      "symbol": "STONK",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-13T23:46:46Z",
+      "entry_at": "2026-10-13T23:46:46Z",
+      "status": "open",
+      "scan_market_cap_usd": 134654.2,
+      "entry_price_usd": 0.0001335,
+      "quantity": 74906.36704119851,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001335,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
