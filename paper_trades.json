@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-13T02:08:40Z",
+  "updated_at": "2026-10-13T16:41:55Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -16,7 +16,8 @@
     "HGhMd143SgEMTBV59Fb2J6nsJZnnd9j23N8dGVqHwKij",
     "4qd6frXatNSD82HF5cG3mLGuhwgK9AYF8KASk9fgpump",
     "7XmESjenTrcY5kB3Mofh9KHHBjG6xbdvE8AkDpDHvi1Q",
-    "DeUQuCgd2rY72mHzUu2hQz8VardouCtstgfGi26Egf6W"
+    "DeUQuCgd2rY72mHzUu2hQz8VardouCtstgfGi26Egf6W",
+    "BrE1o9q7wtGqRduoeMhfVP6idCtHUk5mPTLVNhJXGM8U"
   ],
   "positions": [
     {
@@ -321,12 +322,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-13T02:08:18Z",
       "entry_at": "2026-10-13T02:08:18Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 130560.82,
       "entry_price_usd": 0.0001302,
       "quantity": 76804.91551459294,
       "quote_status": "ok",
       "last_price_usd": 0.0001302,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-13T16:41:40Z",
+      "exit_price_usd": 0.0001324,
+      "realized_pnl_usd": 0.168971,
+      "realized_return_percent": 1.6897
+    },
+    {
+      "trade_id": "2026-10-13T16:41:40Z|BrE1o9q7wtGqRduoeMhfVP6idCtHUk5mPTLVNhJXGM8U",
+      "address": "BrE1o9q7wtGqRduoeMhfVP6idCtHUk5mPTLVNhJXGM8U",
+      "name": "The Zcash ETF 🛡️",
+      "symbol": "ZCSH",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-13T16:41:40Z",
+      "entry_at": "2026-10-13T16:41:40Z",
+      "status": "open",
+      "scan_market_cap_usd": 112035.77,
+      "entry_price_usd": 0.000111,
+      "quantity": 90090.09009009009,
+      "quote_status": "ok",
+      "last_price_usd": 0.000111,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
