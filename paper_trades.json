@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-14T14:18:36Z",
+  "updated_at": "2026-10-14T23:19:52Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -19,7 +19,8 @@
     "DeUQuCgd2rY72mHzUu2hQz8VardouCtstgfGi26Egf6W",
     "BrE1o9q7wtGqRduoeMhfVP6idCtHUk5mPTLVNhJXGM8U",
     "Hi1ovtASTdDTDG15hAVtLdaTf6iugSxKFU2dcoDyGypy",
-    "GbN7TeNqXkJhopZSQf79P9q6tAzdFitV7s8Kcfszmoon"
+    "GbN7TeNqXkJhopZSQf79P9q6tAzdFitV7s8Kcfszmoon",
+    "Djwh6Swdn8ujoMnfx9DWWFLBX2ctj9tWuL1x2Q49pump"
   ],
   "positions": [
     {
@@ -387,12 +388,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-14T14:18:28Z",
       "entry_at": "2026-10-14T14:18:28Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 83907.58,
       "entry_price_usd": 8.321e-05,
       "quantity": 120177.86323759163,
       "quote_status": "ok",
       "last_price_usd": 8.321e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-14T23:19:49Z",
+      "exit_price_usd": 9.376e-05,
+      "realized_pnl_usd": 1.267876,
+      "realized_return_percent": 12.6788
+    },
+    {
+      "trade_id": "2026-10-14T23:19:49Z|Djwh6Swdn8ujoMnfx9DWWFLBX2ctj9tWuL1x2Q49pump",
+      "address": "Djwh6Swdn8ujoMnfx9DWWFLBX2ctj9tWuL1x2Q49pump",
+      "name": "cijo",
+      "symbol": "cijo",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-14T23:19:49Z",
+      "entry_at": "2026-10-14T23:19:49Z",
+      "status": "open",
+      "scan_market_cap_usd": 84823.67,
+      "entry_price_usd": 8.414e-05,
+      "quantity": 118849.5364868077,
+      "quote_status": "ok",
+      "last_price_usd": 8.414e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
