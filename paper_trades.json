@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-14T23:19:52Z",
+  "updated_at": "2026-10-15T13:53:36Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -20,7 +20,8 @@
     "BrE1o9q7wtGqRduoeMhfVP6idCtHUk5mPTLVNhJXGM8U",
     "Hi1ovtASTdDTDG15hAVtLdaTf6iugSxKFU2dcoDyGypy",
     "GbN7TeNqXkJhopZSQf79P9q6tAzdFitV7s8Kcfszmoon",
-    "Djwh6Swdn8ujoMnfx9DWWFLBX2ctj9tWuL1x2Q49pump"
+    "Djwh6Swdn8ujoMnfx9DWWFLBX2ctj9tWuL1x2Q49pump",
+    "HyVFXWrM5RaVaQiJQ5VzRhWZviEWJNnuwHfpxjkpump"
   ],
   "positions": [
     {
@@ -409,12 +410,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-14T23:19:49Z",
       "entry_at": "2026-10-14T23:19:49Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 84823.67,
       "entry_price_usd": 8.414e-05,
       "quantity": 118849.5364868077,
       "quote_status": "ok",
       "last_price_usd": 8.414e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-15T13:53:27Z",
+      "exit_price_usd": 0.0001027,
+      "realized_pnl_usd": 2.205847,
+      "realized_return_percent": 22.0585
+    },
+    {
+      "trade_id": "2026-10-15T13:53:27Z|HyVFXWrM5RaVaQiJQ5VzRhWZviEWJNnuwHfpxjkpump",
+      "address": "HyVFXWrM5RaVaQiJQ5VzRhWZviEWJNnuwHfpxjkpump",
+      "name": "Gomo App",
+      "symbol": "GOMO",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-15T13:53:27Z",
+      "entry_at": "2026-10-15T13:53:27Z",
+      "status": "open",
+      "scan_market_cap_usd": 123828.06,
+      "entry_price_usd": 0.0001237,
+      "quantity": 80840.74373484236,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001237,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
