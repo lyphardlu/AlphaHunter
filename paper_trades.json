@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-15T23:08:19Z",
+  "updated_at": "2026-10-16T13:43:15Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -22,7 +22,8 @@
     "GbN7TeNqXkJhopZSQf79P9q6tAzdFitV7s8Kcfszmoon",
     "Djwh6Swdn8ujoMnfx9DWWFLBX2ctj9tWuL1x2Q49pump",
     "HyVFXWrM5RaVaQiJQ5VzRhWZviEWJNnuwHfpxjkpump",
-    "Cy33cH9EkRVzxmURoM9UKQbjb6sEKc226YAaaVT2pump"
+    "Cy33cH9EkRVzxmURoM9UKQbjb6sEKc226YAaaVT2pump",
+    "2sPBMZdqQxQsUTK6YYouaX3D8fXVfy3KU4mYK4cAmuC8"
   ],
   "positions": [
     {
@@ -453,12 +454,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-15T23:08:17Z",
       "entry_at": "2026-10-15T23:08:17Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 84915.25,
       "entry_price_usd": 8.523e-05,
       "quantity": 117329.57878681216,
       "quote_status": "ok",
       "last_price_usd": 8.523e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-16T13:43:09Z",
+      "exit_price_usd": 0.005875,
+      "realized_pnl_usd": 679.311275,
+      "realized_return_percent": 6793.1128
+    },
+    {
+      "trade_id": "2026-10-16T13:43:09Z|2sPBMZdqQxQsUTK6YYouaX3D8fXVfy3KU4mYK4cAmuC8",
+      "address": "2sPBMZdqQxQsUTK6YYouaX3D8fXVfy3KU4mYK4cAmuC8",
+      "name": "Blue Frog",
+      "symbol": "BROG",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-16T13:43:09Z",
+      "entry_at": "2026-10-16T13:43:09Z",
+      "status": "open",
+      "scan_market_cap_usd": 104690.4,
+      "entry_price_usd": 9.632e-05,
+      "quantity": 103820.59800664452,
+      "quote_status": "ok",
+      "last_price_usd": 9.632e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
