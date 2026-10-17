@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-17T12:40:05Z",
+  "updated_at": "2026-10-17T22:29:10Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -25,7 +25,8 @@
     "Cy33cH9EkRVzxmURoM9UKQbjb6sEKc226YAaaVT2pump",
     "2sPBMZdqQxQsUTK6YYouaX3D8fXVfy3KU4mYK4cAmuC8",
     "CHAbf8hoc1un2UWgisRs9KEnQ4YxdS5vbMQvzsNxpump",
-    "MHsS5V4YtwvGrnKUodh4LrW2LCKEeJGaK1ZM9zRpump"
+    "MHsS5V4YtwvGrnKUodh4LrW2LCKEeJGaK1ZM9zRpump",
+    "3QzDhydoujQ9xGt4AYMD6ZeA2p6AaVMc6eQCB9dtEBHQ"
   ],
   "positions": [
     {
@@ -519,12 +520,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-17T12:39:55Z",
       "entry_at": "2026-10-17T12:39:55Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 139214.94,
       "entry_price_usd": 0.0001261,
       "quantity": 79302.14115781126,
       "quote_status": "ok",
       "last_price_usd": 0.0001261,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-17T22:28:53Z",
+      "exit_price_usd": 1.876e-06,
+      "realized_pnl_usd": -9.851229,
+      "realized_return_percent": -98.5123
+    },
+    {
+      "trade_id": "2026-10-17T22:28:53Z|3QzDhydoujQ9xGt4AYMD6ZeA2p6AaVMc6eQCB9dtEBHQ",
+      "address": "3QzDhydoujQ9xGt4AYMD6ZeA2p6AaVMc6eQCB9dtEBHQ",
+      "name": "Make America Great Again",
+      "symbol": "MAGA",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-17T22:28:53Z",
+      "entry_at": "2026-10-17T22:28:53Z",
+      "status": "open",
+      "scan_market_cap_usd": 135868.0,
+      "entry_price_usd": 0.0001347,
+      "quantity": 74239.04974016333,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001347,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
