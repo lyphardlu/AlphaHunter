@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-16T22:55:35Z",
+  "updated_at": "2026-10-17T12:40:05Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -24,7 +24,8 @@
     "HyVFXWrM5RaVaQiJQ5VzRhWZviEWJNnuwHfpxjkpump",
     "Cy33cH9EkRVzxmURoM9UKQbjb6sEKc226YAaaVT2pump",
     "2sPBMZdqQxQsUTK6YYouaX3D8fXVfy3KU4mYK4cAmuC8",
-    "CHAbf8hoc1un2UWgisRs9KEnQ4YxdS5vbMQvzsNxpump"
+    "CHAbf8hoc1un2UWgisRs9KEnQ4YxdS5vbMQvzsNxpump",
+    "MHsS5V4YtwvGrnKUodh4LrW2LCKEeJGaK1ZM9zRpump"
   ],
   "positions": [
     {
@@ -497,12 +498,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-16T22:55:13Z",
       "entry_at": "2026-10-16T22:55:13Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 86125.32,
       "entry_price_usd": 8.615e-05,
       "quantity": 116076.61056297157,
       "quote_status": "ok",
       "last_price_usd": 8.615e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-17T12:39:55Z",
+      "exit_price_usd": 0.0001056,
+      "realized_pnl_usd": 2.25769,
+      "realized_return_percent": 22.5769
+    },
+    {
+      "trade_id": "2026-10-17T12:39:55Z|MHsS5V4YtwvGrnKUodh4LrW2LCKEeJGaK1ZM9zRpump",
+      "address": "MHsS5V4YtwvGrnKUodh4LrW2LCKEeJGaK1ZM9zRpump",
+      "name": "Claude Official",
+      "symbol": "Claude AI",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-17T12:39:55Z",
+      "entry_at": "2026-10-17T12:39:55Z",
+      "status": "open",
+      "scan_market_cap_usd": 139214.94,
+      "entry_price_usd": 0.0001261,
+      "quantity": 79302.14115781126,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001261,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
