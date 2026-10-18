@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-17T22:29:10Z",
+  "updated_at": "2026-10-18T12:57:26Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -26,7 +26,8 @@
     "2sPBMZdqQxQsUTK6YYouaX3D8fXVfy3KU4mYK4cAmuC8",
     "CHAbf8hoc1un2UWgisRs9KEnQ4YxdS5vbMQvzsNxpump",
     "MHsS5V4YtwvGrnKUodh4LrW2LCKEeJGaK1ZM9zRpump",
-    "3QzDhydoujQ9xGt4AYMD6ZeA2p6AaVMc6eQCB9dtEBHQ"
+    "3QzDhydoujQ9xGt4AYMD6ZeA2p6AaVMc6eQCB9dtEBHQ",
+    "DQ1wx1vzzsdCJDJ9JpfqAx2WzWoS57BcWvFab5sZCPtr"
   ],
   "positions": [
     {
@@ -541,12 +542,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-17T22:28:53Z",
       "entry_at": "2026-10-17T22:28:53Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 135868.0,
       "entry_price_usd": 0.0001347,
       "quantity": 74239.04974016333,
       "quote_status": "ok",
       "last_price_usd": 0.0001347,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-18T12:57:04Z",
+      "exit_price_usd": 0.0003795,
+      "realized_pnl_usd": 18.173719,
+      "realized_return_percent": 181.7372
+    },
+    {
+      "trade_id": "2026-10-18T12:57:04Z|DQ1wx1vzzsdCJDJ9JpfqAx2WzWoS57BcWvFab5sZCPtr",
+      "address": "DQ1wx1vzzsdCJDJ9JpfqAx2WzWoS57BcWvFab5sZCPtr",
+      "name": "SUPERMAMA",
+      "symbol": "SUPERMAMA",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-18T12:57:04Z",
+      "entry_at": "2026-10-18T12:57:04Z",
+      "status": "open",
+      "scan_market_cap_usd": 105109.02,
+      "entry_price_usd": 9.769e-05,
+      "quantity": 102364.62278636504,
+      "quote_status": "ok",
+      "last_price_usd": 9.769e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
