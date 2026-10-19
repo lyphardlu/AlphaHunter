@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-18T22:30:03Z",
+  "updated_at": "2026-10-19T16:09:28Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -28,7 +28,8 @@
     "MHsS5V4YtwvGrnKUodh4LrW2LCKEeJGaK1ZM9zRpump",
     "3QzDhydoujQ9xGt4AYMD6ZeA2p6AaVMc6eQCB9dtEBHQ",
     "DQ1wx1vzzsdCJDJ9JpfqAx2WzWoS57BcWvFab5sZCPtr",
-    "5WbtBELxN2vSr8RajCp3yxP2AYcE1Usr1qfTexSrYJHj"
+    "5WbtBELxN2vSr8RajCp3yxP2AYcE1Usr1qfTexSrYJHj",
+    "DhvbDWdg4RtvX6N7ps1BQvMZ4hzjExr9RCXzzeq9pump"
   ],
   "positions": [
     {
@@ -585,12 +586,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-18T22:29:52Z",
       "entry_at": "2026-10-18T22:29:52Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 81634.11,
       "entry_price_usd": 6.766e-05,
       "quantity": 147797.81259237364,
       "quote_status": "ok",
       "last_price_usd": 6.766e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-19T16:09:21Z",
+      "exit_price_usd": 8.905e-05,
+      "realized_pnl_usd": 3.161395,
+      "realized_return_percent": 31.614
+    },
+    {
+      "trade_id": "2026-10-19T16:09:21Z|DhvbDWdg4RtvX6N7ps1BQvMZ4hzjExr9RCXzzeq9pump",
+      "address": "DhvbDWdg4RtvX6N7ps1BQvMZ4hzjExr9RCXzzeq9pump",
+      "name": "Octo",
+      "symbol": "Octo",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-19T16:09:21Z",
+      "entry_at": "2026-10-19T16:09:21Z",
+      "status": "open",
+      "scan_market_cap_usd": 90397.04,
+      "entry_price_usd": 8.974e-05,
+      "quantity": 111433.02874972142,
+      "quote_status": "ok",
+      "last_price_usd": 8.974e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
