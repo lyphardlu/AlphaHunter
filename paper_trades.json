@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-19T23:49:50Z",
+  "updated_at": "2026-10-20T14:04:31Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -30,7 +30,8 @@
     "DQ1wx1vzzsdCJDJ9JpfqAx2WzWoS57BcWvFab5sZCPtr",
     "5WbtBELxN2vSr8RajCp3yxP2AYcE1Usr1qfTexSrYJHj",
     "DhvbDWdg4RtvX6N7ps1BQvMZ4hzjExr9RCXzzeq9pump",
-    "4ETw1wyhZKmrgEzwt7mDhdoxAHwVfP9d6S8fGHtUpump"
+    "4ETw1wyhZKmrgEzwt7mDhdoxAHwVfP9d6S8fGHtUpump",
+    "8tJtD1aM9KJHjKEC1huQXc8QrMciDee4zYzibxb5fRsU"
   ],
   "positions": [
     {
@@ -629,12 +630,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-19T23:49:29Z",
       "entry_at": "2026-10-19T23:49:29Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 85354.73,
       "entry_price_usd": 8.526e-05,
       "quantity": 117288.29462819612,
       "quote_status": "ok",
       "last_price_usd": 8.526e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-20T14:03:31Z",
+      "exit_price_usd": 8.823e-05,
+      "realized_pnl_usd": 0.348346,
+      "realized_return_percent": 3.4835
+    },
+    {
+      "trade_id": "2026-10-20T14:03:31Z|8tJtD1aM9KJHjKEC1huQXc8QrMciDee4zYzibxb5fRsU",
+      "address": "8tJtD1aM9KJHjKEC1huQXc8QrMciDee4zYzibxb5fRsU",
+      "name": "Monero Strategy",
+      "symbol": "XMRS",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-20T14:03:31Z",
+      "entry_at": "2026-10-20T14:03:31Z",
+      "status": "open",
+      "scan_market_cap_usd": 133387.94,
+      "entry_price_usd": 0.0001338,
+      "quantity": 74738.41554559044,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001338,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
