@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-20T14:04:31Z",
+  "updated_at": "2026-10-20T23:15:28Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -31,7 +31,8 @@
     "5WbtBELxN2vSr8RajCp3yxP2AYcE1Usr1qfTexSrYJHj",
     "DhvbDWdg4RtvX6N7ps1BQvMZ4hzjExr9RCXzzeq9pump",
     "4ETw1wyhZKmrgEzwt7mDhdoxAHwVfP9d6S8fGHtUpump",
-    "8tJtD1aM9KJHjKEC1huQXc8QrMciDee4zYzibxb5fRsU"
+    "8tJtD1aM9KJHjKEC1huQXc8QrMciDee4zYzibxb5fRsU",
+    "8fFcUnTnLvPTudRAi97pDhVF2VyqQyzqAPt9SNgxmBpX"
   ],
   "positions": [
     {
@@ -651,12 +652,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-20T14:03:31Z",
       "entry_at": "2026-10-20T14:03:31Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 133387.94,
       "entry_price_usd": 0.0001338,
       "quantity": 74738.41554559044,
       "quote_status": "ok",
       "last_price_usd": 0.0001338,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-20T23:15:22Z",
+      "exit_price_usd": 0.0001479,
+      "realized_pnl_usd": 1.053812,
+      "realized_return_percent": 10.5381
+    },
+    {
+      "trade_id": "2026-10-20T23:15:22Z|8fFcUnTnLvPTudRAi97pDhVF2VyqQyzqAPt9SNgxmBpX",
+      "address": "8fFcUnTnLvPTudRAi97pDhVF2VyqQyzqAPt9SNgxmBpX",
+      "name": "Aura Final Boss",
+      "symbol": "KIMCHI",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-20T23:15:22Z",
+      "entry_at": "2026-10-20T23:15:22Z",
+      "status": "open",
+      "scan_market_cap_usd": 107335.39,
+      "entry_price_usd": 0.0001128,
+      "quantity": 88652.48226950354,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001128,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
