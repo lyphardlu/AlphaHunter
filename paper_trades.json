@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-21T14:20:08Z",
+  "updated_at": "2026-10-21T23:29:08Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -33,7 +33,8 @@
     "4ETw1wyhZKmrgEzwt7mDhdoxAHwVfP9d6S8fGHtUpump",
     "8tJtD1aM9KJHjKEC1huQXc8QrMciDee4zYzibxb5fRsU",
     "8fFcUnTnLvPTudRAi97pDhVF2VyqQyzqAPt9SNgxmBpX",
-    "9f96ndkQBr4q7qFcETc2u5JqsF6M1F2TsbzbMCL7pQFj"
+    "9f96ndkQBr4q7qFcETc2u5JqsF6M1F2TsbzbMCL7pQFj",
+    "98KcoRiHLhaSM3EF4GDszfwPo2umvH23cvDhhwLmzus"
   ],
   "positions": [
     {
@@ -695,12 +696,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-21T14:19:30Z",
       "entry_at": "2026-10-21T14:19:30Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 134261.23,
       "entry_price_usd": 0.0001337,
       "quantity": 74794.31563201197,
       "quote_status": "ok",
       "last_price_usd": 0.0001337,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-21T23:29:06Z",
+      "exit_price_usd": 8.294e-05,
+      "realized_pnl_usd": -3.796559,
+      "realized_return_percent": -37.9656
+    },
+    {
+      "trade_id": "2026-10-21T23:29:06Z|98KcoRiHLhaSM3EF4GDszfwPo2umvH23cvDhhwLmzus",
+      "address": "98KcoRiHLhaSM3EF4GDszfwPo2umvH23cvDhhwLmzus",
+      "name": "Garry Albert L. Gorithm",
+      "symbol": "GARRY",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-21T23:29:06Z",
+      "entry_at": "2026-10-21T23:29:06Z",
+      "status": "open",
+      "scan_market_cap_usd": 75460.63,
+      "entry_price_usd": 7.965e-05,
+      "quantity": 125549.27809165098,
+      "quote_status": "ok",
+      "last_price_usd": 7.965e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
