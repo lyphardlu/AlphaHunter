@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-21T23:29:08Z",
+  "updated_at": "2026-10-22T14:18:51Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -34,7 +34,8 @@
     "8tJtD1aM9KJHjKEC1huQXc8QrMciDee4zYzibxb5fRsU",
     "8fFcUnTnLvPTudRAi97pDhVF2VyqQyzqAPt9SNgxmBpX",
     "9f96ndkQBr4q7qFcETc2u5JqsF6M1F2TsbzbMCL7pQFj",
-    "98KcoRiHLhaSM3EF4GDszfwPo2umvH23cvDhhwLmzus"
+    "98KcoRiHLhaSM3EF4GDszfwPo2umvH23cvDhhwLmzus",
+    "4UnCkiNAZHCCLkmLyzHqMVXqoR8NSCUdSnyhxqLabonk"
   ],
   "positions": [
     {
@@ -717,12 +718,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-21T23:29:06Z",
       "entry_at": "2026-10-21T23:29:06Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 75460.63,
       "entry_price_usd": 7.965e-05,
       "quantity": 125549.27809165098,
       "quote_status": "ok",
       "last_price_usd": 7.965e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-22T14:18:38Z",
+      "exit_price_usd": 1.898e-05,
+      "realized_pnl_usd": -7.617075,
+      "realized_return_percent": -76.1707
+    },
+    {
+      "trade_id": "2026-10-22T14:18:38Z|4UnCkiNAZHCCLkmLyzHqMVXqoR8NSCUdSnyhxqLabonk",
+      "address": "4UnCkiNAZHCCLkmLyzHqMVXqoR8NSCUdSnyhxqLabonk",
+      "name": "Shamonda virus",
+      "symbol": "SHAV",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-22T14:18:38Z",
+      "entry_at": "2026-10-22T14:18:38Z",
+      "status": "open",
+      "scan_market_cap_usd": 96640.37,
+      "entry_price_usd": 9.611e-05,
+      "quantity": 104047.44563520966,
+      "quote_status": "ok",
+      "last_price_usd": 9.611e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
