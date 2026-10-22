@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-22T14:18:51Z",
+  "updated_at": "2026-10-22T23:29:13Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -35,7 +35,8 @@
     "8fFcUnTnLvPTudRAi97pDhVF2VyqQyzqAPt9SNgxmBpX",
     "9f96ndkQBr4q7qFcETc2u5JqsF6M1F2TsbzbMCL7pQFj",
     "98KcoRiHLhaSM3EF4GDszfwPo2umvH23cvDhhwLmzus",
-    "4UnCkiNAZHCCLkmLyzHqMVXqoR8NSCUdSnyhxqLabonk"
+    "4UnCkiNAZHCCLkmLyzHqMVXqoR8NSCUdSnyhxqLabonk",
+    "HBKSHfDGX3LQovxsEkTJMbYAxx7DDAnMFjrtpjq5fwQY"
   ],
   "positions": [
     {
@@ -739,12 +740,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-22T14:18:38Z",
       "entry_at": "2026-10-22T14:18:38Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 96640.37,
       "entry_price_usd": 9.611e-05,
       "quantity": 104047.44563520966,
       "quote_status": "ok",
       "last_price_usd": 9.611e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-22T23:28:46Z",
+      "exit_price_usd": 0.0001036,
+      "realized_pnl_usd": 0.779315,
+      "realized_return_percent": 7.7932
+    },
+    {
+      "trade_id": "2026-10-22T23:28:46Z|HBKSHfDGX3LQovxsEkTJMbYAxx7DDAnMFjrtpjq5fwQY",
+      "address": "HBKSHfDGX3LQovxsEkTJMbYAxx7DDAnMFjrtpjq5fwQY",
+      "name": "Elon Coin",
+      "symbol": "ELON",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-22T23:28:46Z",
+      "entry_at": "2026-10-22T23:28:46Z",
+      "status": "open",
+      "scan_market_cap_usd": 148596.57,
+      "entry_price_usd": 0.0001672,
+      "quantity": 59808.61244019139,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001672,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
