@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-22T23:29:13Z",
+  "updated_at": "2026-10-23T14:02:24Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -36,7 +36,8 @@
     "9f96ndkQBr4q7qFcETc2u5JqsF6M1F2TsbzbMCL7pQFj",
     "98KcoRiHLhaSM3EF4GDszfwPo2umvH23cvDhhwLmzus",
     "4UnCkiNAZHCCLkmLyzHqMVXqoR8NSCUdSnyhxqLabonk",
-    "HBKSHfDGX3LQovxsEkTJMbYAxx7DDAnMFjrtpjq5fwQY"
+    "HBKSHfDGX3LQovxsEkTJMbYAxx7DDAnMFjrtpjq5fwQY",
+    "E3rsWa11ghuDtMmKvx44jqY7EaBFufsAbYZokwRa9wbB"
   ],
   "positions": [
     {
@@ -761,12 +762,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-22T23:28:46Z",
       "entry_at": "2026-10-22T23:28:46Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 148596.57,
       "entry_price_usd": 0.0001672,
       "quantity": 59808.61244019139,
       "quote_status": "ok",
       "last_price_usd": 0.0001672,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-23T14:01:52Z",
+      "exit_price_usd": 0.0002028,
+      "realized_pnl_usd": 2.129187,
+      "realized_return_percent": 21.2919
+    },
+    {
+      "trade_id": "2026-10-23T14:01:52Z|E3rsWa11ghuDtMmKvx44jqY7EaBFufsAbYZokwRa9wbB",
+      "address": "E3rsWa11ghuDtMmKvx44jqY7EaBFufsAbYZokwRa9wbB",
+      "name": "mil",
+      "symbol": "mil",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-23T14:01:52Z",
+      "entry_at": "2026-10-23T14:01:52Z",
+      "status": "open",
+      "scan_market_cap_usd": 82691.08,
+      "entry_price_usd": 8.179e-05,
+      "quantity": 122264.33549333659,
+      "quote_status": "ok",
+      "last_price_usd": 8.179e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
