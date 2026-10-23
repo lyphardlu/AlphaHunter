@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-23T14:02:24Z",
+  "updated_at": "2026-10-23T23:16:13Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -37,7 +37,8 @@
     "98KcoRiHLhaSM3EF4GDszfwPo2umvH23cvDhhwLmzus",
     "4UnCkiNAZHCCLkmLyzHqMVXqoR8NSCUdSnyhxqLabonk",
     "HBKSHfDGX3LQovxsEkTJMbYAxx7DDAnMFjrtpjq5fwQY",
-    "E3rsWa11ghuDtMmKvx44jqY7EaBFufsAbYZokwRa9wbB"
+    "E3rsWa11ghuDtMmKvx44jqY7EaBFufsAbYZokwRa9wbB",
+    "TuquvfyGTXkvPNLqCN4dkfFmLNaS4Y5ooQ8cKL4sTDD"
   ],
   "positions": [
     {
@@ -783,12 +784,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-23T14:01:52Z",
       "entry_at": "2026-10-23T14:01:52Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 82691.08,
       "entry_price_usd": 8.179e-05,
       "quantity": 122264.33549333659,
       "quote_status": "ok",
       "last_price_usd": 8.179e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-23T23:15:52Z",
+      "exit_price_usd": 8.404e-05,
+      "realized_pnl_usd": 0.275095,
+      "realized_return_percent": 2.7509
+    },
+    {
+      "trade_id": "2026-10-23T23:15:52Z|TuquvfyGTXkvPNLqCN4dkfFmLNaS4Y5ooQ8cKL4sTDD",
+      "address": "TuquvfyGTXkvPNLqCN4dkfFmLNaS4Y5ooQ8cKL4sTDD",
+      "name": "You Missed Bitches",
+      "symbol": "YMB",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-23T23:15:52Z",
+      "entry_at": "2026-10-23T23:15:52Z",
+      "status": "open",
+      "scan_market_cap_usd": 130583.86,
+      "entry_price_usd": 0.0001228,
+      "quantity": 81433.22475570033,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001228,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
