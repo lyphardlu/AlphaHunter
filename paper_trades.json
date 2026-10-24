@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-23T23:16:13Z",
+  "updated_at": "2026-10-24T13:05:04Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -38,7 +38,8 @@
     "4UnCkiNAZHCCLkmLyzHqMVXqoR8NSCUdSnyhxqLabonk",
     "HBKSHfDGX3LQovxsEkTJMbYAxx7DDAnMFjrtpjq5fwQY",
     "E3rsWa11ghuDtMmKvx44jqY7EaBFufsAbYZokwRa9wbB",
-    "TuquvfyGTXkvPNLqCN4dkfFmLNaS4Y5ooQ8cKL4sTDD"
+    "TuquvfyGTXkvPNLqCN4dkfFmLNaS4Y5ooQ8cKL4sTDD",
+    "CH8XWn5JGSLiotMXpbRQJVVj39SSiH1CD6rrJBXyu9rh"
   ],
   "positions": [
     {
@@ -805,12 +806,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-23T23:15:52Z",
       "entry_at": "2026-10-23T23:15:52Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 130583.86,
       "entry_price_usd": 0.0001228,
       "quantity": 81433.22475570033,
       "quote_status": "ok",
       "last_price_usd": 0.0001228,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-24T13:04:40Z",
+      "exit_price_usd": 8.106e-06,
+      "realized_pnl_usd": -9.339902,
+      "realized_return_percent": -93.399
+    },
+    {
+      "trade_id": "2026-10-24T13:04:40Z|CH8XWn5JGSLiotMXpbRQJVVj39SSiH1CD6rrJBXyu9rh",
+      "address": "CH8XWn5JGSLiotMXpbRQJVVj39SSiH1CD6rrJBXyu9rh",
+      "name": "CC",
+      "symbol": "CC",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-24T13:04:40Z",
+      "entry_at": "2026-10-24T13:04:40Z",
+      "status": "open",
+      "scan_market_cap_usd": 102221.49,
+      "entry_price_usd": 0.0001082,
+      "quantity": 92421.44177449169,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001082,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
