@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-24T13:05:04Z",
+  "updated_at": "2026-10-24T22:36:26Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -39,7 +39,8 @@
     "HBKSHfDGX3LQovxsEkTJMbYAxx7DDAnMFjrtpjq5fwQY",
     "E3rsWa11ghuDtMmKvx44jqY7EaBFufsAbYZokwRa9wbB",
     "TuquvfyGTXkvPNLqCN4dkfFmLNaS4Y5ooQ8cKL4sTDD",
-    "CH8XWn5JGSLiotMXpbRQJVVj39SSiH1CD6rrJBXyu9rh"
+    "CH8XWn5JGSLiotMXpbRQJVVj39SSiH1CD6rrJBXyu9rh",
+    "8TGHY57Y1jSPdxf9wgAH1no9FUTiGvSbgd9WsBRUa5BL"
   ],
   "positions": [
     {
@@ -827,12 +828,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-24T13:04:40Z",
       "entry_at": "2026-10-24T13:04:40Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 102221.49,
       "entry_price_usd": 0.0001082,
       "quantity": 92421.44177449169,
       "quote_status": "ok",
       "last_price_usd": 0.0001082,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-24T22:36:05Z",
+      "exit_price_usd": 1.341e-06,
+      "realized_pnl_usd": -9.876063,
+      "realized_return_percent": -98.7606
+    },
+    {
+      "trade_id": "2026-10-24T22:36:05Z|8TGHY57Y1jSPdxf9wgAH1no9FUTiGvSbgd9WsBRUa5BL",
+      "address": "8TGHY57Y1jSPdxf9wgAH1no9FUTiGvSbgd9WsBRUa5BL",
+      "name": "memory mesh",
+      "symbol": "mm",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-24T22:36:05Z",
+      "entry_at": "2026-10-24T22:36:05Z",
+      "status": "open",
+      "scan_market_cap_usd": 89245.96,
+      "entry_price_usd": 8.907e-05,
+      "quantity": 112271.24733355788,
+      "quote_status": "ok",
+      "last_price_usd": 8.907e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
