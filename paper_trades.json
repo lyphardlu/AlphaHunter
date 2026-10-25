@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-25T13:32:18Z",
+  "updated_at": "2026-10-25T22:41:13Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -41,7 +41,8 @@
     "TuquvfyGTXkvPNLqCN4dkfFmLNaS4Y5ooQ8cKL4sTDD",
     "CH8XWn5JGSLiotMXpbRQJVVj39SSiH1CD6rrJBXyu9rh",
     "8TGHY57Y1jSPdxf9wgAH1no9FUTiGvSbgd9WsBRUa5BL",
-    "DpNatSh82bN4CK13LC5pKz5koLQAKbztv3dPFJftbonk"
+    "DpNatSh82bN4CK13LC5pKz5koLQAKbztv3dPFJftbonk",
+    "HTToRnNZekCxEgDKyKEGDU3rGP3GiyB3s9QPQuZoX6XX"
   ],
   "positions": [
     {
@@ -871,12 +872,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-25T13:32:12Z",
       "entry_at": "2026-10-25T13:32:12Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 103164.92,
       "entry_price_usd": 0.0001026,
       "quantity": 97465.88693957115,
       "quote_status": "ok",
       "last_price_usd": 0.0001026,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-25T22:41:10Z",
+      "exit_price_usd": 0.0001099,
+      "realized_pnl_usd": 0.711501,
+      "realized_return_percent": 7.115
+    },
+    {
+      "trade_id": "2026-10-25T22:41:10Z|HTToRnNZekCxEgDKyKEGDU3rGP3GiyB3s9QPQuZoX6XX",
+      "address": "HTToRnNZekCxEgDKyKEGDU3rGP3GiyB3s9QPQuZoX6XX",
+      "name": "Gooncoin",
+      "symbol": "GOON",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-25T22:41:10Z",
+      "entry_at": "2026-10-25T22:41:10Z",
+      "status": "open",
+      "scan_market_cap_usd": 160792.5,
+      "entry_price_usd": 0.0001733,
+      "quantity": 57703.404500865545,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001733,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
