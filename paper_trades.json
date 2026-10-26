@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-26T15:48:12Z",
+  "updated_at": "2026-10-26T23:57:45Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -43,7 +43,8 @@
     "8TGHY57Y1jSPdxf9wgAH1no9FUTiGvSbgd9WsBRUa5BL",
     "DpNatSh82bN4CK13LC5pKz5koLQAKbztv3dPFJftbonk",
     "HTToRnNZekCxEgDKyKEGDU3rGP3GiyB3s9QPQuZoX6XX",
-    "CRLqLK8AXvQgErbP4WRGnKxix8nvHGMY84PhxBWypump"
+    "CRLqLK8AXvQgErbP4WRGnKxix8nvHGMY84PhxBWypump",
+    "8YudniP2kT86kQWBW44MGqzyF56uCmMVataFZiXB32i9"
   ],
   "positions": [
     {
@@ -915,12 +916,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-26T15:47:52Z",
       "entry_at": "2026-10-26T15:47:52Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 156511.82,
       "entry_price_usd": 0.0001611,
       "quantity": 62073.24643078833,
       "quote_status": "ok",
       "last_price_usd": 0.0001611,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-26T23:57:20Z",
+      "exit_price_usd": 0.0001678,
+      "realized_pnl_usd": 0.415891,
+      "realized_return_percent": 4.1589
+    },
+    {
+      "trade_id": "2026-10-26T23:57:20Z|8YudniP2kT86kQWBW44MGqzyF56uCmMVataFZiXB32i9",
+      "address": "8YudniP2kT86kQWBW44MGqzyF56uCmMVataFZiXB32i9",
+      "name": "Arrow",
+      "symbol": "ARROW",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-26T23:57:20Z",
+      "entry_at": "2026-10-26T23:57:20Z",
+      "status": "open",
+      "scan_market_cap_usd": 50312.66,
+      "entry_price_usd": 5.006e-05,
+      "quantity": 199760.28765481422,
+      "quote_status": "ok",
+      "last_price_usd": 5.006e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
