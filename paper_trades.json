@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-27T15:06:42Z",
+  "updated_at": "2026-10-27T23:52:35Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -44,7 +44,8 @@
     "DpNatSh82bN4CK13LC5pKz5koLQAKbztv3dPFJftbonk",
     "HTToRnNZekCxEgDKyKEGDU3rGP3GiyB3s9QPQuZoX6XX",
     "CRLqLK8AXvQgErbP4WRGnKxix8nvHGMY84PhxBWypump",
-    "8YudniP2kT86kQWBW44MGqzyF56uCmMVataFZiXB32i9"
+    "8YudniP2kT86kQWBW44MGqzyF56uCmMVataFZiXB32i9",
+    "Am3vp2Rqyg8VEMpeBXLuQkFGuYGMhA6rJN4G2Cuf4YtY"
   ],
   "positions": [
     {
@@ -949,6 +950,23 @@
       "exit_price_usd": 5.229e-05,
       "realized_pnl_usd": 0.445465,
       "realized_return_percent": 4.4547
+    },
+    {
+      "trade_id": "2026-10-27T23:52:14Z|Am3vp2Rqyg8VEMpeBXLuQkFGuYGMhA6rJN4G2Cuf4YtY",
+      "address": "Am3vp2Rqyg8VEMpeBXLuQkFGuYGMhA6rJN4G2Cuf4YtY",
+      "name": "Inverse",
+      "symbol": "INVERSE",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-27T23:52:14Z",
+      "entry_at": "2026-10-27T23:52:14Z",
+      "status": "open",
+      "scan_market_cap_usd": 91666.54,
+      "entry_price_usd": 9.144e-05,
+      "quantity": 109361.32983377077,
+      "quote_status": "ok",
+      "last_price_usd": 9.144e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0
     }
   ]
 }
