@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-28T15:42:27Z",
+  "updated_at": "2026-10-29T00:05:50Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -45,7 +45,8 @@
     "HTToRnNZekCxEgDKyKEGDU3rGP3GiyB3s9QPQuZoX6XX",
     "CRLqLK8AXvQgErbP4WRGnKxix8nvHGMY84PhxBWypump",
     "8YudniP2kT86kQWBW44MGqzyF56uCmMVataFZiXB32i9",
-    "Am3vp2Rqyg8VEMpeBXLuQkFGuYGMhA6rJN4G2Cuf4YtY"
+    "Am3vp2Rqyg8VEMpeBXLuQkFGuYGMhA6rJN4G2Cuf4YtY",
+    "3rXWBWVexkBrBmGdVXbdQXCJSSmX4WDWt4Fk8kVR67QS"
   ],
   "positions": [
     {
@@ -971,6 +972,23 @@
       "exit_price_usd": 0.0001088,
       "realized_pnl_usd": 1.898513,
       "realized_return_percent": 18.9851
+    },
+    {
+      "trade_id": "2026-10-29T00:05:29Z|3rXWBWVexkBrBmGdVXbdQXCJSSmX4WDWt4Fk8kVR67QS",
+      "address": "3rXWBWVexkBrBmGdVXbdQXCJSSmX4WDWt4Fk8kVR67QS",
+      "name": "Pumpfun Hippo",
+      "symbol": "PIPER",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-29T00:05:29Z",
+      "entry_at": "2026-10-29T00:05:29Z",
+      "status": "open",
+      "scan_market_cap_usd": 50005.89,
+      "entry_price_usd": 4.981e-05,
+      "quantity": 200762.8990162618,
+      "quote_status": "ok",
+      "last_price_usd": 4.981e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0
     }
   ]
 }
