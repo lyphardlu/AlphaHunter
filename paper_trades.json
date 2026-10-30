@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-29T15:49:55Z",
+  "updated_at": "2026-10-30T00:01:43Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -47,7 +47,8 @@
     "8YudniP2kT86kQWBW44MGqzyF56uCmMVataFZiXB32i9",
     "Am3vp2Rqyg8VEMpeBXLuQkFGuYGMhA6rJN4G2Cuf4YtY",
     "3rXWBWVexkBrBmGdVXbdQXCJSSmX4WDWt4Fk8kVR67QS",
-    "82KarJTXf5ZosnZJBEcYpvkALqNTNhRsyJ8b5iE8Uqxf"
+    "82KarJTXf5ZosnZJBEcYpvkALqNTNhRsyJ8b5iE8Uqxf",
+    "5dL66HeLNCqnY5v6z4Le2NNTWQ8nDruaPX3vAvis1dUv"
   ],
   "positions": [
     {
@@ -1003,12 +1004,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-29T15:48:48Z",
       "entry_at": "2026-10-29T15:48:48Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 86840.13,
       "entry_price_usd": 8.742e-05,
       "quantity": 114390.29970258522,
       "quote_status": "ok",
       "last_price_usd": 8.742e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-30T00:01:21Z",
+      "exit_price_usd": 0.0001242,
+      "realized_pnl_usd": 4.207275,
+      "realized_return_percent": 42.0728
+    },
+    {
+      "trade_id": "2026-10-30T00:01:21Z|5dL66HeLNCqnY5v6z4Le2NNTWQ8nDruaPX3vAvis1dUv",
+      "address": "5dL66HeLNCqnY5v6z4Le2NNTWQ8nDruaPX3vAvis1dUv",
+      "name": "Cans of beans",
+      "symbol": "BEANS",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-30T00:01:21Z",
+      "entry_at": "2026-10-30T00:01:21Z",
+      "status": "open",
+      "scan_market_cap_usd": 105857.27,
+      "entry_price_usd": 0.0001051,
+      "quantity": 95147.47859181733,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001051,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
