@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-30T00:01:43Z",
+  "updated_at": "2026-10-30T15:29:49Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -48,7 +48,8 @@
     "Am3vp2Rqyg8VEMpeBXLuQkFGuYGMhA6rJN4G2Cuf4YtY",
     "3rXWBWVexkBrBmGdVXbdQXCJSSmX4WDWt4Fk8kVR67QS",
     "82KarJTXf5ZosnZJBEcYpvkALqNTNhRsyJ8b5iE8Uqxf",
-    "5dL66HeLNCqnY5v6z4Le2NNTWQ8nDruaPX3vAvis1dUv"
+    "5dL66HeLNCqnY5v6z4Le2NNTWQ8nDruaPX3vAvis1dUv",
+    "5hVXRAewVvrCgrpKx51tLxC9iJhcifCDzWfHtWn3eNuU"
   ],
   "positions": [
     {
@@ -1025,12 +1026,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-30T00:01:21Z",
       "entry_at": "2026-10-30T00:01:21Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 105857.27,
       "entry_price_usd": 0.0001051,
       "quantity": 95147.47859181733,
       "quote_status": "ok",
       "last_price_usd": 0.0001051,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-30T15:29:41Z",
+      "exit_price_usd": 0.0001157,
+      "realized_pnl_usd": 1.008563,
+      "realized_return_percent": 10.0856
+    },
+    {
+      "trade_id": "2026-10-30T15:29:41Z|5hVXRAewVvrCgrpKx51tLxC9iJhcifCDzWfHtWn3eNuU",
+      "address": "5hVXRAewVvrCgrpKx51tLxC9iJhcifCDzWfHtWn3eNuU",
+      "name": "CATPAD",
+      "symbol": "CATPAD",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-30T15:29:41Z",
+      "entry_at": "2026-10-30T15:29:41Z",
+      "status": "open",
+      "scan_market_cap_usd": 100723.61,
+      "entry_price_usd": 8.577e-05,
+      "quantity": 116590.88259298123,
+      "quote_status": "ok",
+      "last_price_usd": 8.577e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
