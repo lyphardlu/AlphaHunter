@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-30T15:29:49Z",
+  "updated_at": "2026-10-30T23:55:22Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -49,7 +49,8 @@
     "3rXWBWVexkBrBmGdVXbdQXCJSSmX4WDWt4Fk8kVR67QS",
     "82KarJTXf5ZosnZJBEcYpvkALqNTNhRsyJ8b5iE8Uqxf",
     "5dL66HeLNCqnY5v6z4Le2NNTWQ8nDruaPX3vAvis1dUv",
-    "5hVXRAewVvrCgrpKx51tLxC9iJhcifCDzWfHtWn3eNuU"
+    "5hVXRAewVvrCgrpKx51tLxC9iJhcifCDzWfHtWn3eNuU",
+    "C1HNbUgya8BGJaCWSTFRHSuNYZVNCDzfvZTHZydHpump"
   ],
   "positions": [
     {
@@ -1047,12 +1048,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-10-30T15:29:41Z",
       "entry_at": "2026-10-30T15:29:41Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 100723.61,
       "entry_price_usd": 8.577e-05,
       "quantity": 116590.88259298123,
       "quote_status": "ok",
       "last_price_usd": 8.577e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-10-30T23:55:15Z",
+      "exit_price_usd": 0.1684,
+      "realized_pnl_usd": 19623.904629,
+      "realized_return_percent": 196239.0463
+    },
+    {
+      "trade_id": "2026-10-30T23:55:15Z|C1HNbUgya8BGJaCWSTFRHSuNYZVNCDzfvZTHZydHpump",
+      "address": "C1HNbUgya8BGJaCWSTFRHSuNYZVNCDzfvZTHZydHpump",
+      "name": "The Englishman",
+      "symbol": "George",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-30T23:55:15Z",
+      "entry_at": "2026-10-30T23:55:15Z",
+      "status": "open",
+      "scan_market_cap_usd": 91040.37,
+      "entry_price_usd": 9.063e-05,
+      "quantity": 110338.73993158998,
+      "quote_status": "ok",
+      "last_price_usd": 9.063e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
