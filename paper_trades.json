@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-31T14:58:43Z",
+  "updated_at": "2026-10-31T23:30:45Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -50,7 +50,8 @@
     "82KarJTXf5ZosnZJBEcYpvkALqNTNhRsyJ8b5iE8Uqxf",
     "5dL66HeLNCqnY5v6z4Le2NNTWQ8nDruaPX3vAvis1dUv",
     "5hVXRAewVvrCgrpKx51tLxC9iJhcifCDzWfHtWn3eNuU",
-    "C1HNbUgya8BGJaCWSTFRHSuNYZVNCDzfvZTHZydHpump"
+    "C1HNbUgya8BGJaCWSTFRHSuNYZVNCDzfvZTHZydHpump",
+    "33zgLL1A8hFiRewkyJquJ97A9xQnZxnrDEJmg7FDKw2T"
   ],
   "positions": [
     {
@@ -1081,6 +1082,23 @@
       "exit_price_usd": 0.0001015,
       "realized_pnl_usd": 1.199382,
       "realized_return_percent": 11.9938
+    },
+    {
+      "trade_id": "2026-10-31T23:30:20Z|33zgLL1A8hFiRewkyJquJ97A9xQnZxnrDEJmg7FDKw2T",
+      "address": "33zgLL1A8hFiRewkyJquJ97A9xQnZxnrDEJmg7FDKw2T",
+      "name": "Scooby Doo",
+      "symbol": "Scooby",
+      "invested_usd": 10.0,
+      "scan_at": "2026-10-31T23:30:20Z",
+      "entry_at": "2026-10-31T23:30:20Z",
+      "status": "open",
+      "scan_market_cap_usd": 83599.82,
+      "entry_price_usd": 8.334e-05,
+      "quantity": 119990.40076793857,
+      "quote_status": "ok",
+      "last_price_usd": 8.334e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0
     }
   ]
 }
