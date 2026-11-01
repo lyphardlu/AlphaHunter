@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-01T15:43:29Z",
+  "updated_at": "2026-11-01T23:42:54Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -52,7 +52,8 @@
     "5hVXRAewVvrCgrpKx51tLxC9iJhcifCDzWfHtWn3eNuU",
     "C1HNbUgya8BGJaCWSTFRHSuNYZVNCDzfvZTHZydHpump",
     "33zgLL1A8hFiRewkyJquJ97A9xQnZxnrDEJmg7FDKw2T",
-    "CnDGpi3Wq1Uq3kqtYbyDt9DsD3FJ5aTszzffHRrRYijm"
+    "CnDGpi3Wq1Uq3kqtYbyDt9DsD3FJ5aTszzffHRrRYijm",
+    "6qpzNwHL9Qk7KXndN8Lpq5ZZKAhbeCrNTBw3Cgnunwv8"
   ],
   "positions": [
     {
@@ -1113,12 +1114,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-01T15:43:07Z",
       "entry_at": "2026-11-01T15:43:07Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 64833.67,
       "entry_price_usd": 6.811e-05,
       "quantity": 146821.31845543973,
       "quote_status": "ok",
       "last_price_usd": 6.811e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-01T23:42:50Z",
+      "exit_price_usd": 0.1321,
+      "realized_pnl_usd": 19385.096168,
+      "realized_return_percent": 193850.9617
+    },
+    {
+      "trade_id": "2026-11-01T23:42:50Z|6qpzNwHL9Qk7KXndN8Lpq5ZZKAhbeCrNTBw3Cgnunwv8",
+      "address": "6qpzNwHL9Qk7KXndN8Lpq5ZZKAhbeCrNTBw3Cgnunwv8",
+      "name": "Justice for Alexandra Dudgeon",
+      "symbol": "ALEXANDRA",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-01T23:42:50Z",
+      "entry_at": "2026-11-01T23:42:50Z",
+      "status": "open",
+      "scan_market_cap_usd": 92230.66,
+      "entry_price_usd": 8.663e-05,
+      "quantity": 115433.4526145677,
+      "quote_status": "ok",
+      "last_price_usd": 8.663e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
