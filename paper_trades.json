@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-01T23:42:54Z",
+  "updated_at": "2026-11-02T19:06:02Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -53,7 +53,8 @@
     "C1HNbUgya8BGJaCWSTFRHSuNYZVNCDzfvZTHZydHpump",
     "33zgLL1A8hFiRewkyJquJ97A9xQnZxnrDEJmg7FDKw2T",
     "CnDGpi3Wq1Uq3kqtYbyDt9DsD3FJ5aTszzffHRrRYijm",
-    "6qpzNwHL9Qk7KXndN8Lpq5ZZKAhbeCrNTBw3Cgnunwv8"
+    "6qpzNwHL9Qk7KXndN8Lpq5ZZKAhbeCrNTBw3Cgnunwv8",
+    "76YZQZKXcyxZEKNPjxSYqrBsX6W5vfPnFsQk99vAsXHD"
   ],
   "positions": [
     {
@@ -1135,12 +1136,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-01T23:42:50Z",
       "entry_at": "2026-11-01T23:42:50Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 92230.66,
       "entry_price_usd": 8.663e-05,
       "quantity": 115433.4526145677,
       "quote_status": "ok",
       "last_price_usd": 8.663e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-02T19:05:55Z",
+      "exit_price_usd": 0.1111,
+      "realized_pnl_usd": 12814.656585,
+      "realized_return_percent": 128146.5659
+    },
+    {
+      "trade_id": "2026-11-02T19:05:55Z|76YZQZKXcyxZEKNPjxSYqrBsX6W5vfPnFsQk99vAsXHD",
+      "address": "76YZQZKXcyxZEKNPjxSYqrBsX6W5vfPnFsQk99vAsXHD",
+      "name": "Capycoin",
+      "symbol": "CAPY",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-02T19:05:55Z",
+      "entry_at": "2026-11-02T19:05:55Z",
+      "status": "open",
+      "scan_market_cap_usd": 121255.86,
+      "entry_price_usd": 0.0001229,
+      "quantity": 81366.96501220504,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001229,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
