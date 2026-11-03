@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-02T19:06:02Z",
+  "updated_at": "2026-11-03T02:29:12Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -54,7 +54,8 @@
     "33zgLL1A8hFiRewkyJquJ97A9xQnZxnrDEJmg7FDKw2T",
     "CnDGpi3Wq1Uq3kqtYbyDt9DsD3FJ5aTszzffHRrRYijm",
     "6qpzNwHL9Qk7KXndN8Lpq5ZZKAhbeCrNTBw3Cgnunwv8",
-    "76YZQZKXcyxZEKNPjxSYqrBsX6W5vfPnFsQk99vAsXHD"
+    "76YZQZKXcyxZEKNPjxSYqrBsX6W5vfPnFsQk99vAsXHD",
+    "71WJor7TqoujKqwPCg7Wa2Vr1L7e441CMKwk1VJNcWS5"
   ],
   "positions": [
     {
@@ -1157,12 +1158,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-02T19:05:55Z",
       "entry_at": "2026-11-02T19:05:55Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 121255.86,
       "entry_price_usd": 0.0001229,
       "quantity": 81366.96501220504,
       "quote_status": "ok",
       "last_price_usd": 0.0001229,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-03T02:29:09Z",
+      "exit_price_usd": 4.543e-05,
+      "realized_pnl_usd": -6.303499,
+      "realized_return_percent": -63.035
+    },
+    {
+      "trade_id": "2026-11-03T02:29:09Z|71WJor7TqoujKqwPCg7Wa2Vr1L7e441CMKwk1VJNcWS5",
+      "address": "71WJor7TqoujKqwPCg7Wa2Vr1L7e441CMKwk1VJNcWS5",
+      "name": "Goatcoin",
+      "symbol": "GOAT",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-03T02:29:09Z",
+      "entry_at": "2026-11-03T02:29:09Z",
+      "status": "open",
+      "scan_market_cap_usd": 99007.37,
+      "entry_price_usd": 8.964e-05,
+      "quantity": 111557.34047300312,
+      "quote_status": "ok",
+      "last_price_usd": 8.964e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
