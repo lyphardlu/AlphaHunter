@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-03T02:29:12Z",
+  "updated_at": "2026-11-03T16:48:25Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -55,7 +55,8 @@
     "CnDGpi3Wq1Uq3kqtYbyDt9DsD3FJ5aTszzffHRrRYijm",
     "6qpzNwHL9Qk7KXndN8Lpq5ZZKAhbeCrNTBw3Cgnunwv8",
     "76YZQZKXcyxZEKNPjxSYqrBsX6W5vfPnFsQk99vAsXHD",
-    "71WJor7TqoujKqwPCg7Wa2Vr1L7e441CMKwk1VJNcWS5"
+    "71WJor7TqoujKqwPCg7Wa2Vr1L7e441CMKwk1VJNcWS5",
+    "FX9kJUJu2q9czjf9kyax3GAGzx6Fp86izP9W5KNpump"
   ],
   "positions": [
     {
@@ -1179,12 +1180,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-03T02:29:09Z",
       "entry_at": "2026-11-03T02:29:09Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 99007.37,
       "entry_price_usd": 8.964e-05,
       "quantity": 111557.34047300312,
       "quote_status": "ok",
       "last_price_usd": 8.964e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-03T16:48:21Z",
+      "exit_price_usd": 3.953e-06,
+      "realized_pnl_usd": -9.559014,
+      "realized_return_percent": -95.5901
+    },
+    {
+      "trade_id": "2026-11-03T16:48:21Z|FX9kJUJu2q9czjf9kyax3GAGzx6Fp86izP9W5KNpump",
+      "address": "FX9kJUJu2q9czjf9kyax3GAGzx6Fp86izP9W5KNpump",
+      "name": "Project Cybrlk",
+      "symbol": "CYBRLK",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-03T16:48:21Z",
+      "entry_at": "2026-11-03T16:48:21Z",
+      "status": "open",
+      "scan_market_cap_usd": 80301.04,
+      "entry_price_usd": 0.007391,
+      "quantity": 1352.9968881071572,
+      "quote_status": "ok",
+      "last_price_usd": 0.007391,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
