@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-04T00:44:16Z",
+  "updated_at": "2026-11-04T16:48:14Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -57,7 +57,8 @@
     "76YZQZKXcyxZEKNPjxSYqrBsX6W5vfPnFsQk99vAsXHD",
     "71WJor7TqoujKqwPCg7Wa2Vr1L7e441CMKwk1VJNcWS5",
     "FX9kJUJu2q9czjf9kyax3GAGzx6Fp86izP9W5KNpump",
-    "6cWGtskuuyv4wKcFsaZ6w1zNC2CFLa2uR1Zs9mowVwnj"
+    "6cWGtskuuyv4wKcFsaZ6w1zNC2CFLa2uR1Zs9mowVwnj",
+    "HzhUQXuxUzegcAkxuZR2bSPPq9q4bR3RctzFsskk1dEG"
   ],
   "positions": [
     {
@@ -1223,12 +1224,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-04T00:43:21Z",
       "entry_at": "2026-11-04T00:43:21Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 105713.88,
       "entry_price_usd": 0.0001079,
       "quantity": 92678.40593141799,
       "quote_status": "ok",
       "last_price_usd": 0.0001079,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-04T16:47:58Z",
+      "exit_price_usd": 0.0001691,
+      "realized_pnl_usd": 5.671918,
+      "realized_return_percent": 56.7192
+    },
+    {
+      "trade_id": "2026-11-04T16:47:58Z|HzhUQXuxUzegcAkxuZR2bSPPq9q4bR3RctzFsskk1dEG",
+      "address": "HzhUQXuxUzegcAkxuZR2bSPPq9q4bR3RctzFsskk1dEG",
+      "name": "Colonel Toad",
+      "symbol": "TOAD",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-04T16:47:58Z",
+      "entry_at": "2026-11-04T16:47:58Z",
+      "status": "open",
+      "scan_market_cap_usd": 57671.07,
+      "entry_price_usd": 6.982e-05,
+      "quantity": 143225.43683758235,
+      "quote_status": "ok",
+      "last_price_usd": 6.982e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
