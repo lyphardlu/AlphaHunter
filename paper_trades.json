@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-03T16:48:25Z",
+  "updated_at": "2026-11-04T00:44:16Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -56,7 +56,8 @@
     "6qpzNwHL9Qk7KXndN8Lpq5ZZKAhbeCrNTBw3Cgnunwv8",
     "76YZQZKXcyxZEKNPjxSYqrBsX6W5vfPnFsQk99vAsXHD",
     "71WJor7TqoujKqwPCg7Wa2Vr1L7e441CMKwk1VJNcWS5",
-    "FX9kJUJu2q9czjf9kyax3GAGzx6Fp86izP9W5KNpump"
+    "FX9kJUJu2q9czjf9kyax3GAGzx6Fp86izP9W5KNpump",
+    "6cWGtskuuyv4wKcFsaZ6w1zNC2CFLa2uR1Zs9mowVwnj"
   ],
   "positions": [
     {
@@ -1201,12 +1202,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-03T16:48:21Z",
       "entry_at": "2026-11-03T16:48:21Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 80301.04,
       "entry_price_usd": 0.007391,
       "quantity": 1352.9968881071572,
       "quote_status": "ok",
       "last_price_usd": 0.007391,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-04T00:43:21Z",
+      "exit_price_usd": 0.0001016,
+      "realized_pnl_usd": -9.862536,
+      "realized_return_percent": -98.6254
+    },
+    {
+      "trade_id": "2026-11-04T00:43:21Z|6cWGtskuuyv4wKcFsaZ6w1zNC2CFLa2uR1Zs9mowVwnj",
+      "address": "6cWGtskuuyv4wKcFsaZ6w1zNC2CFLa2uR1Zs9mowVwnj",
+      "name": "Justice for Victor Rielly",
+      "symbol": "VICTOR",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-04T00:43:21Z",
+      "entry_at": "2026-11-04T00:43:21Z",
+      "status": "open",
+      "scan_market_cap_usd": 105713.88,
+      "entry_price_usd": 0.0001079,
+      "quantity": 92678.40593141799,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001079,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
