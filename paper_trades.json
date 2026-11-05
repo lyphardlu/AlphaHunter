@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-05T00:57:01Z",
+  "updated_at": "2026-11-05T17:04:20Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -59,7 +59,8 @@
     "FX9kJUJu2q9czjf9kyax3GAGzx6Fp86izP9W5KNpump",
     "6cWGtskuuyv4wKcFsaZ6w1zNC2CFLa2uR1Zs9mowVwnj",
     "HzhUQXuxUzegcAkxuZR2bSPPq9q4bR3RctzFsskk1dEG",
-    "9A9vMe8m78yWJpKv7DqgTSSNHSKKeF64neivVkripump"
+    "9A9vMe8m78yWJpKv7DqgTSSNHSKKeF64neivVkripump",
+    "8tAqtonBg8HRuYTDEK5C6ebmTXci6ujBLvduCsPnpump"
   ],
   "positions": [
     {
@@ -1267,12 +1268,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-05T00:56:59Z",
       "entry_at": "2026-11-05T00:56:59Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 193274.95,
       "entry_price_usd": 0.0002077,
       "quantity": 48146.36494944632,
       "quote_status": "ok",
       "last_price_usd": 0.0002077,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-05T17:04:15Z",
+      "exit_price_usd": 4.205e-05,
+      "realized_pnl_usd": -7.975445,
+      "realized_return_percent": -79.7545
+    },
+    {
+      "trade_id": "2026-11-05T17:04:15Z|8tAqtonBg8HRuYTDEK5C6ebmTXci6ujBLvduCsPnpump",
+      "address": "8tAqtonBg8HRuYTDEK5C6ebmTXci6ujBLvduCsPnpump",
+      "name": "MrBeast",
+      "symbol": "MrBeast",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-05T17:04:15Z",
+      "entry_at": "2026-11-05T17:04:15Z",
+      "status": "open",
+      "scan_market_cap_usd": 129501.22,
+      "entry_price_usd": 0.000128,
+      "quantity": 78125.0,
+      "quote_status": "ok",
+      "last_price_usd": 0.000128,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
