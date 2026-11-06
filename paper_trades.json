@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-06T00:59:51Z",
+  "updated_at": "2026-11-06T16:34:21Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -61,7 +61,8 @@
     "HzhUQXuxUzegcAkxuZR2bSPPq9q4bR3RctzFsskk1dEG",
     "9A9vMe8m78yWJpKv7DqgTSSNHSKKeF64neivVkripump",
     "8tAqtonBg8HRuYTDEK5C6ebmTXci6ujBLvduCsPnpump",
-    "23NdmAiWARaykwYK1KfuFNNTscqKLvfaGhy2fv14EiuQ"
+    "23NdmAiWARaykwYK1KfuFNNTscqKLvfaGhy2fv14EiuQ",
+    "GYuYp474tq9Aiwwq7N5TNTyZ42NpDGvAc2AdoW379cwd"
   ],
   "positions": [
     {
@@ -1311,12 +1312,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-06T00:59:30Z",
       "entry_at": "2026-11-06T00:59:30Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 92852.83,
       "entry_price_usd": 9.051e-05,
       "quantity": 110485.02927853276,
       "quote_status": "ok",
       "last_price_usd": 9.051e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-06T16:34:12Z",
+      "exit_price_usd": 2.491e-05,
+      "realized_pnl_usd": -7.247818,
+      "realized_return_percent": -72.4782
+    },
+    {
+      "trade_id": "2026-11-06T16:34:12Z|GYuYp474tq9Aiwwq7N5TNTyZ42NpDGvAc2AdoW379cwd",
+      "address": "GYuYp474tq9Aiwwq7N5TNTyZ42NpDGvAc2AdoW379cwd",
+      "name": "Finance Inu",
+      "symbol": "FI",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-06T16:34:12Z",
+      "entry_at": "2026-11-06T16:34:12Z",
+      "status": "open",
+      "scan_market_cap_usd": 153433.03,
+      "entry_price_usd": 0.0001482,
+      "quantity": 67476.38326585694,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001482,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
