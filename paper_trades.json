@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-05T17:04:20Z",
+  "updated_at": "2026-11-06T00:59:51Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -60,7 +60,8 @@
     "6cWGtskuuyv4wKcFsaZ6w1zNC2CFLa2uR1Zs9mowVwnj",
     "HzhUQXuxUzegcAkxuZR2bSPPq9q4bR3RctzFsskk1dEG",
     "9A9vMe8m78yWJpKv7DqgTSSNHSKKeF64neivVkripump",
-    "8tAqtonBg8HRuYTDEK5C6ebmTXci6ujBLvduCsPnpump"
+    "8tAqtonBg8HRuYTDEK5C6ebmTXci6ujBLvduCsPnpump",
+    "23NdmAiWARaykwYK1KfuFNNTscqKLvfaGhy2fv14EiuQ"
   ],
   "positions": [
     {
@@ -1289,12 +1290,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-05T17:04:15Z",
       "entry_at": "2026-11-05T17:04:15Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 129501.22,
       "entry_price_usd": 0.000128,
       "quantity": 78125.0,
       "quote_status": "ok",
       "last_price_usd": 0.000128,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-06T00:59:30Z",
+      "exit_price_usd": 1.615e-06,
+      "realized_pnl_usd": -9.873828,
+      "realized_return_percent": -98.7383
+    },
+    {
+      "trade_id": "2026-11-06T00:59:30Z|23NdmAiWARaykwYK1KfuFNNTscqKLvfaGhy2fv14EiuQ",
+      "address": "23NdmAiWARaykwYK1KfuFNNTscqKLvfaGhy2fv14EiuQ",
+      "name": "The Market Chan",
+      "symbol": "CHIKA",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-06T00:59:30Z",
+      "entry_at": "2026-11-06T00:59:30Z",
+      "status": "open",
+      "scan_market_cap_usd": 92852.83,
+      "entry_price_usd": 9.051e-05,
+      "quantity": 110485.02927853276,
+      "quote_status": "ok",
+      "last_price_usd": 9.051e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
