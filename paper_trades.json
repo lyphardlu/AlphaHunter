@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-07T15:23:50Z",
+  "updated_at": "2026-11-07T23:43:51Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -64,7 +64,8 @@
     "23NdmAiWARaykwYK1KfuFNNTscqKLvfaGhy2fv14EiuQ",
     "GYuYp474tq9Aiwwq7N5TNTyZ42NpDGvAc2AdoW379cwd",
     "7Udh32SpHNt6KavW2yxdVhieKnxZ1twMjRg4ARxNBziM",
-    "DWEaYkH3B1xihpxAdzFcuRXtxCEreMqz5UzJBiEipump"
+    "DWEaYkH3B1xihpxAdzFcuRXtxCEreMqz5UzJBiEipump",
+    "9ux32p9JwNF1GRs3uean3w4vS5Zf6SAGEk4REhAGpump"
   ],
   "positions": [
     {
@@ -1377,12 +1378,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-07T15:23:36Z",
       "entry_at": "2026-11-07T15:23:36Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 82861.45,
       "entry_price_usd": 8.247e-05,
       "quantity": 121256.21438098702,
       "quote_status": "ok",
       "last_price_usd": 8.247e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-07T23:43:45Z",
+      "exit_price_usd": 8.527e-05,
+      "realized_pnl_usd": 0.339517,
+      "realized_return_percent": 3.3952
+    },
+    {
+      "trade_id": "2026-11-07T23:43:45Z|9ux32p9JwNF1GRs3uean3w4vS5Zf6SAGEk4REhAGpump",
+      "address": "9ux32p9JwNF1GRs3uean3w4vS5Zf6SAGEk4REhAGpump",
+      "name": "GTA6",
+      "symbol": "GTA 6 Coin",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-07T23:43:45Z",
+      "entry_at": "2026-11-07T23:43:45Z",
+      "status": "open",
+      "scan_market_cap_usd": 143931.72,
+      "entry_price_usd": 0.0001434,
+      "quantity": 69735.0069735007,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001434,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
