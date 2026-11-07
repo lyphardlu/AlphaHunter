@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-06T16:34:21Z",
+  "updated_at": "2026-11-07T00:10:38Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -62,7 +62,8 @@
     "9A9vMe8m78yWJpKv7DqgTSSNHSKKeF64neivVkripump",
     "8tAqtonBg8HRuYTDEK5C6ebmTXci6ujBLvduCsPnpump",
     "23NdmAiWARaykwYK1KfuFNNTscqKLvfaGhy2fv14EiuQ",
-    "GYuYp474tq9Aiwwq7N5TNTyZ42NpDGvAc2AdoW379cwd"
+    "GYuYp474tq9Aiwwq7N5TNTyZ42NpDGvAc2AdoW379cwd",
+    "7Udh32SpHNt6KavW2yxdVhieKnxZ1twMjRg4ARxNBziM"
   ],
   "positions": [
     {
@@ -1333,12 +1334,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-06T16:34:12Z",
       "entry_at": "2026-11-06T16:34:12Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 153433.03,
       "entry_price_usd": 0.0001482,
       "quantity": 67476.38326585694,
       "quote_status": "ok",
       "last_price_usd": 0.0001482,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-07T00:10:17Z",
+      "exit_price_usd": 0.0001599,
+      "realized_pnl_usd": 0.789474,
+      "realized_return_percent": 7.8947
+    },
+    {
+      "trade_id": "2026-11-07T00:10:17Z|7Udh32SpHNt6KavW2yxdVhieKnxZ1twMjRg4ARxNBziM",
+      "address": "7Udh32SpHNt6KavW2yxdVhieKnxZ1twMjRg4ARxNBziM",
+      "name": "AnimeBTC",
+      "symbol": "ABTC",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-07T00:10:17Z",
+      "entry_at": "2026-11-07T00:10:17Z",
+      "status": "open",
+      "scan_market_cap_usd": 62001.25,
+      "entry_price_usd": 7.631e-05,
+      "quantity": 131044.42405975625,
+      "quote_status": "ok",
+      "last_price_usd": 7.631e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
