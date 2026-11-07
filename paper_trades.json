@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-07T00:10:38Z",
+  "updated_at": "2026-11-07T15:23:50Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -63,7 +63,8 @@
     "8tAqtonBg8HRuYTDEK5C6ebmTXci6ujBLvduCsPnpump",
     "23NdmAiWARaykwYK1KfuFNNTscqKLvfaGhy2fv14EiuQ",
     "GYuYp474tq9Aiwwq7N5TNTyZ42NpDGvAc2AdoW379cwd",
-    "7Udh32SpHNt6KavW2yxdVhieKnxZ1twMjRg4ARxNBziM"
+    "7Udh32SpHNt6KavW2yxdVhieKnxZ1twMjRg4ARxNBziM",
+    "DWEaYkH3B1xihpxAdzFcuRXtxCEreMqz5UzJBiEipump"
   ],
   "positions": [
     {
@@ -1355,12 +1356,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-07T00:10:17Z",
       "entry_at": "2026-11-07T00:10:17Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 62001.25,
       "entry_price_usd": 7.631e-05,
       "quantity": 131044.42405975625,
       "quote_status": "ok",
       "last_price_usd": 7.631e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-07T15:23:36Z",
+      "exit_price_usd": 2.139e-09,
+      "realized_pnl_usd": -9.99972,
+      "realized_return_percent": -99.9972
+    },
+    {
+      "trade_id": "2026-11-07T15:23:36Z|DWEaYkH3B1xihpxAdzFcuRXtxCEreMqz5UzJBiEipump",
+      "address": "DWEaYkH3B1xihpxAdzFcuRXtxCEreMqz5UzJBiEipump",
+      "name": "Luna",
+      "symbol": "LUNA",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-07T15:23:36Z",
+      "entry_at": "2026-11-07T15:23:36Z",
+      "status": "open",
+      "scan_market_cap_usd": 82861.45,
+      "entry_price_usd": 8.247e-05,
+      "quantity": 121256.21438098702,
+      "quote_status": "ok",
+      "last_price_usd": 8.247e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
