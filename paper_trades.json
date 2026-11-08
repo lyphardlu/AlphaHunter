@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-08T15:44:45Z",
+  "updated_at": "2026-11-08T23:50:18Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -66,7 +66,8 @@
     "7Udh32SpHNt6KavW2yxdVhieKnxZ1twMjRg4ARxNBziM",
     "DWEaYkH3B1xihpxAdzFcuRXtxCEreMqz5UzJBiEipump",
     "9ux32p9JwNF1GRs3uean3w4vS5Zf6SAGEk4REhAGpump",
-    "9kheahXSPRhcQk7WKpt1PK7e9BJBCDnDV4RwvxoXBKJY"
+    "9kheahXSPRhcQk7WKpt1PK7e9BJBCDnDV4RwvxoXBKJY",
+    "8tc6jw93BoJ9QAYxzFRCbadp56bRwKyq4MErMArf9JPo"
   ],
   "positions": [
     {
@@ -1421,12 +1422,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-08T15:44:41Z",
       "entry_at": "2026-11-08T15:44:41Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 56279.83,
       "entry_price_usd": 6.488e-05,
       "quantity": 154130.70283600493,
       "quote_status": "ok",
       "last_price_usd": 6.488e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-08T23:49:57Z",
+      "exit_price_usd": 7.104e-05,
+      "realized_pnl_usd": 0.949445,
+      "realized_return_percent": 9.4945
+    },
+    {
+      "trade_id": "2026-11-08T23:49:57Z|8tc6jw93BoJ9QAYxzFRCbadp56bRwKyq4MErMArf9JPo",
+      "address": "8tc6jw93BoJ9QAYxzFRCbadp56bRwKyq4MErMArf9JPo",
+      "name": "doudou",
+      "symbol": "DOUDOU",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-08T23:49:57Z",
+      "entry_at": "2026-11-08T23:49:57Z",
+      "status": "open",
+      "scan_market_cap_usd": 132509.8,
+      "entry_price_usd": 0.0001302,
+      "quantity": 76804.91551459294,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001302,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
