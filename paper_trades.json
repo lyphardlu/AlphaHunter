@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-08T23:50:18Z",
+  "updated_at": "2026-11-09T19:27:13Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -67,7 +67,8 @@
     "DWEaYkH3B1xihpxAdzFcuRXtxCEreMqz5UzJBiEipump",
     "9ux32p9JwNF1GRs3uean3w4vS5Zf6SAGEk4REhAGpump",
     "9kheahXSPRhcQk7WKpt1PK7e9BJBCDnDV4RwvxoXBKJY",
-    "8tc6jw93BoJ9QAYxzFRCbadp56bRwKyq4MErMArf9JPo"
+    "8tc6jw93BoJ9QAYxzFRCbadp56bRwKyq4MErMArf9JPo",
+    "7yT6fPFkTfjXio2tEzphBSxcvMkQSAegSejMf2UuBAGS"
   ],
   "positions": [
     {
@@ -1443,12 +1444,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-08T23:49:57Z",
       "entry_at": "2026-11-08T23:49:57Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 132509.8,
       "entry_price_usd": 0.0001302,
       "quantity": 76804.91551459294,
       "quote_status": "ok",
       "last_price_usd": 0.0001302,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-09T19:27:10Z",
+      "exit_price_usd": 0.0001559,
+      "realized_pnl_usd": 1.973886,
+      "realized_return_percent": 19.7389
+    },
+    {
+      "trade_id": "2026-11-09T19:27:10Z|7yT6fPFkTfjXio2tEzphBSxcvMkQSAegSejMf2UuBAGS",
+      "address": "7yT6fPFkTfjXio2tEzphBSxcvMkQSAegSejMf2UuBAGS",
+      "name": "Denald Tremp",
+      "symbol": "TREMP",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-09T19:27:10Z",
+      "entry_at": "2026-11-09T19:27:10Z",
+      "status": "open",
+      "scan_market_cap_usd": 74774.04,
+      "entry_price_usd": 7.445e-05,
+      "quantity": 134318.3344526528,
+      "quote_status": "ok",
+      "last_price_usd": 7.445e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
