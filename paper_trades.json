@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-09T19:27:13Z",
+  "updated_at": "2026-11-10T02:49:03Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -68,7 +68,8 @@
     "9ux32p9JwNF1GRs3uean3w4vS5Zf6SAGEk4REhAGpump",
     "9kheahXSPRhcQk7WKpt1PK7e9BJBCDnDV4RwvxoXBKJY",
     "8tc6jw93BoJ9QAYxzFRCbadp56bRwKyq4MErMArf9JPo",
-    "7yT6fPFkTfjXio2tEzphBSxcvMkQSAegSejMf2UuBAGS"
+    "7yT6fPFkTfjXio2tEzphBSxcvMkQSAegSejMf2UuBAGS",
+    "2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump"
   ],
   "positions": [
     {
@@ -1465,12 +1466,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-09T19:27:10Z",
       "entry_at": "2026-11-09T19:27:10Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 74774.04,
       "entry_price_usd": 7.445e-05,
       "quantity": 134318.3344526528,
       "quote_status": "ok",
       "last_price_usd": 7.445e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-10T02:48:52Z",
+      "exit_price_usd": 9.46e-05,
+      "realized_pnl_usd": 2.706514,
+      "realized_return_percent": 27.0651
+    },
+    {
+      "trade_id": "2026-11-10T02:48:52Z|2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump",
+      "address": "2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump",
+      "name": "Habibi Cat",
+      "symbol": "HABIBI",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-10T02:48:52Z",
+      "entry_at": "2026-11-10T02:48:52Z",
+      "status": "open",
+      "scan_market_cap_usd": 102840.83,
+      "entry_price_usd": 0.0001045,
+      "quantity": 95693.77990430621,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001045,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
