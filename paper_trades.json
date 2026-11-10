@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-10T02:49:03Z",
+  "updated_at": "2026-11-10T16:45:33Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -69,7 +69,8 @@
     "9kheahXSPRhcQk7WKpt1PK7e9BJBCDnDV4RwvxoXBKJY",
     "8tc6jw93BoJ9QAYxzFRCbadp56bRwKyq4MErMArf9JPo",
     "7yT6fPFkTfjXio2tEzphBSxcvMkQSAegSejMf2UuBAGS",
-    "2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump"
+    "2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump",
+    "5wxABHZehaBhnpevmGSPzGbuiYBkQmjhhC3ohqvfVWbe"
   ],
   "positions": [
     {
@@ -1487,12 +1488,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-10T02:48:52Z",
       "entry_at": "2026-11-10T02:48:52Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 102840.83,
       "entry_price_usd": 0.0001045,
       "quantity": 95693.77990430621,
       "quote_status": "ok",
       "last_price_usd": 0.0001045,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-10T16:45:08Z",
+      "exit_price_usd": 1.692e-06,
+      "realized_pnl_usd": -9.838086,
+      "realized_return_percent": -98.3809
+    },
+    {
+      "trade_id": "2026-11-10T16:45:08Z|5wxABHZehaBhnpevmGSPzGbuiYBkQmjhhC3ohqvfVWbe",
+      "address": "5wxABHZehaBhnpevmGSPzGbuiYBkQmjhhC3ohqvfVWbe",
+      "name": "Fuck You Higher",
+      "symbol": "FuckHigh",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-10T16:45:08Z",
+      "entry_at": "2026-11-10T16:45:08Z",
+      "status": "open",
+      "scan_market_cap_usd": 127213.28,
+      "entry_price_usd": 0.0001322,
+      "quantity": 75642.96520423601,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001322,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
