@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-10T16:45:33Z",
+  "updated_at": "2026-11-11T00:44:24Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -70,7 +70,8 @@
     "8tc6jw93BoJ9QAYxzFRCbadp56bRwKyq4MErMArf9JPo",
     "7yT6fPFkTfjXio2tEzphBSxcvMkQSAegSejMf2UuBAGS",
     "2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump",
-    "5wxABHZehaBhnpevmGSPzGbuiYBkQmjhhC3ohqvfVWbe"
+    "5wxABHZehaBhnpevmGSPzGbuiYBkQmjhhC3ohqvfVWbe",
+    "5UZBnEY8wqLumzm9hqGcqtNxupzUiFCWvUazpmmKpump"
   ],
   "positions": [
     {
@@ -1509,12 +1510,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-10T16:45:08Z",
       "entry_at": "2026-11-10T16:45:08Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 127213.28,
       "entry_price_usd": 0.0001322,
       "quantity": 75642.96520423601,
       "quote_status": "ok",
       "last_price_usd": 0.0001322,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-11T00:44:19Z",
+      "exit_price_usd": 0.000576,
+      "realized_pnl_usd": 33.570348,
+      "realized_return_percent": 335.7035
+    },
+    {
+      "trade_id": "2026-11-11T00:44:19Z|5UZBnEY8wqLumzm9hqGcqtNxupzUiFCWvUazpmmKpump",
+      "address": "5UZBnEY8wqLumzm9hqGcqtNxupzUiFCWvUazpmmKpump",
+      "name": "ni hao cat",
+      "symbol": "mihao",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-11T00:44:19Z",
+      "entry_at": "2026-11-11T00:44:19Z",
+      "status": "open",
+      "scan_market_cap_usd": 74391.75,
+      "entry_price_usd": 7.43e-05,
+      "quantity": 134589.50201884253,
+      "quote_status": "ok",
+      "last_price_usd": 7.43e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
