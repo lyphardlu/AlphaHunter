@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-11T00:44:24Z",
+  "updated_at": "2026-11-11T16:51:41Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -71,7 +71,8 @@
     "7yT6fPFkTfjXio2tEzphBSxcvMkQSAegSejMf2UuBAGS",
     "2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump",
     "5wxABHZehaBhnpevmGSPzGbuiYBkQmjhhC3ohqvfVWbe",
-    "5UZBnEY8wqLumzm9hqGcqtNxupzUiFCWvUazpmmKpump"
+    "5UZBnEY8wqLumzm9hqGcqtNxupzUiFCWvUazpmmKpump",
+    "rbLsau8iEpQtTPX1gSEoNRtMkm78veGFLYf6ep5pump"
   ],
   "positions": [
     {
@@ -1531,12 +1532,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-11T00:44:19Z",
       "entry_at": "2026-11-11T00:44:19Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 74391.75,
       "entry_price_usd": 7.43e-05,
       "quantity": 134589.50201884253,
       "quote_status": "ok",
       "last_price_usd": 7.43e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-11T16:51:20Z",
+      "exit_price_usd": 8.069e-05,
+      "realized_pnl_usd": 0.860027,
+      "realized_return_percent": 8.6003
+    },
+    {
+      "trade_id": "2026-11-11T16:51:20Z|rbLsau8iEpQtTPX1gSEoNRtMkm78veGFLYf6ep5pump",
+      "address": "rbLsau8iEpQtTPX1gSEoNRtMkm78veGFLYf6ep5pump",
+      "name": "GoyBot6900",
+      "symbol": "GOYBOT",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-11T16:51:20Z",
+      "entry_at": "2026-11-11T16:51:20Z",
+      "status": "open",
+      "scan_market_cap_usd": 86754.72,
+      "entry_price_usd": 8.279e-05,
+      "quantity": 120787.53472641624,
+      "quote_status": "ok",
+      "last_price_usd": 8.279e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
