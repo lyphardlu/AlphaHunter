@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-12T01:56:54Z",
+  "updated_at": "2026-11-12T17:19:11Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -73,7 +73,8 @@
     "5wxABHZehaBhnpevmGSPzGbuiYBkQmjhhC3ohqvfVWbe",
     "5UZBnEY8wqLumzm9hqGcqtNxupzUiFCWvUazpmmKpump",
     "rbLsau8iEpQtTPX1gSEoNRtMkm78veGFLYf6ep5pump",
-    "BRTHRL3wKXxQ2D7NSf1hA35dWfof4o3BqmAgbB1Npump"
+    "BRTHRL3wKXxQ2D7NSf1hA35dWfof4o3BqmAgbB1Npump",
+    "7Dto7osS2JyKPgC41H1sLdsUpZaoh9EUFiTwLW91ofFQ"
   ],
   "positions": [
     {
@@ -1575,12 +1576,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-12T01:56:47Z",
       "entry_at": "2026-11-12T01:56:47Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 173883.19,
       "entry_price_usd": 0.0001741,
       "quantity": 57438.253877082134,
       "quote_status": "ok",
       "last_price_usd": 0.0001741,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-12T17:19:06Z",
+      "exit_price_usd": 1.517e-06,
+      "realized_pnl_usd": -9.912866,
+      "realized_return_percent": -99.1287
+    },
+    {
+      "trade_id": "2026-11-12T17:19:06Z|7Dto7osS2JyKPgC41H1sLdsUpZaoh9EUFiTwLW91ofFQ",
+      "address": "7Dto7osS2JyKPgC41H1sLdsUpZaoh9EUFiTwLW91ofFQ",
+      "name": "A Mega Dick",
+      "symbol": "AMD",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-12T17:19:06Z",
+      "entry_at": "2026-11-12T17:19:06Z",
+      "status": "open",
+      "scan_market_cap_usd": 129460.32,
+      "entry_price_usd": 0.0001092,
+      "quantity": 91575.09157509157,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001092,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
