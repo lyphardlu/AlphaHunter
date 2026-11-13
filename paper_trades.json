@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-13T01:15:36Z",
+  "updated_at": "2026-11-13T16:55:09Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -75,7 +75,8 @@
     "rbLsau8iEpQtTPX1gSEoNRtMkm78veGFLYf6ep5pump",
     "BRTHRL3wKXxQ2D7NSf1hA35dWfof4o3BqmAgbB1Npump",
     "7Dto7osS2JyKPgC41H1sLdsUpZaoh9EUFiTwLW91ofFQ",
-    "2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump"
+    "2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump",
+    "2AE2Ap3eV24jpsjVj9116waj2Amw5RfmxSEoFnktLDU9"
   ],
   "positions": [
     {
@@ -1619,12 +1620,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-13T01:15:31Z",
       "entry_at": "2026-11-13T01:15:31Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 104461.11,
       "entry_price_usd": 0.0001032,
       "quantity": 96899.22480620154,
       "quote_status": "ok",
       "last_price_usd": 0.0001032,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-13T16:55:06Z",
+      "exit_price_usd": 1.58e-06,
+      "realized_pnl_usd": -9.846899,
+      "realized_return_percent": -98.469
+    },
+    {
+      "trade_id": "2026-11-13T16:55:06Z|2AE2Ap3eV24jpsjVj9116waj2Amw5RfmxSEoFnktLDU9",
+      "address": "2AE2Ap3eV24jpsjVj9116waj2Amw5RfmxSEoFnktLDU9",
+      "name": "UDTF 🔥",
+      "symbol": "UDTF",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-13T16:55:06Z",
+      "entry_at": "2026-11-13T16:55:06Z",
+      "status": "open",
+      "scan_market_cap_usd": 82521.31,
+      "entry_price_usd": 8.535e-05,
+      "quantity": 117164.61628588167,
+      "quote_status": "ok",
+      "last_price_usd": 8.535e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
