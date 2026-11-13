@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-12T17:19:11Z",
+  "updated_at": "2026-11-13T01:15:36Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -74,7 +74,8 @@
     "5UZBnEY8wqLumzm9hqGcqtNxupzUiFCWvUazpmmKpump",
     "rbLsau8iEpQtTPX1gSEoNRtMkm78veGFLYf6ep5pump",
     "BRTHRL3wKXxQ2D7NSf1hA35dWfof4o3BqmAgbB1Npump",
-    "7Dto7osS2JyKPgC41H1sLdsUpZaoh9EUFiTwLW91ofFQ"
+    "7Dto7osS2JyKPgC41H1sLdsUpZaoh9EUFiTwLW91ofFQ",
+    "2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump"
   ],
   "positions": [
     {
@@ -1597,12 +1598,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-12T17:19:06Z",
       "entry_at": "2026-11-12T17:19:06Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 129460.32,
       "entry_price_usd": 0.0001092,
       "quantity": 91575.09157509157,
       "quote_status": "ok",
       "last_price_usd": 0.0001092,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-13T01:15:31Z",
+      "exit_price_usd": 0.0001259,
+      "realized_pnl_usd": 1.529304,
+      "realized_return_percent": 15.293
+    },
+    {
+      "trade_id": "2026-11-13T01:15:31Z|2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump",
+      "address": "2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump",
+      "name": "Affair Inu",
+      "symbol": "AI",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-13T01:15:31Z",
+      "entry_at": "2026-11-13T01:15:31Z",
+      "status": "open",
+      "scan_market_cap_usd": 104461.11,
+      "entry_price_usd": 0.0001032,
+      "quantity": 96899.22480620154,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001032,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
