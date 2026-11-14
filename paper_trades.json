@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-13T16:55:09Z",
+  "updated_at": "2026-11-14T00:56:09Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -76,7 +76,8 @@
     "BRTHRL3wKXxQ2D7NSf1hA35dWfof4o3BqmAgbB1Npump",
     "7Dto7osS2JyKPgC41H1sLdsUpZaoh9EUFiTwLW91ofFQ",
     "2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump",
-    "2AE2Ap3eV24jpsjVj9116waj2Amw5RfmxSEoFnktLDU9"
+    "2AE2Ap3eV24jpsjVj9116waj2Amw5RfmxSEoFnktLDU9",
+    "B2sV1UwWHYrG2QreqcnYnaHks4f1CVYHbLxKBa3cRrgc"
   ],
   "positions": [
     {
@@ -1641,12 +1642,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-13T16:55:06Z",
       "entry_at": "2026-11-13T16:55:06Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 82521.31,
       "entry_price_usd": 8.535e-05,
       "quantity": 117164.61628588167,
       "quote_status": "ok",
       "last_price_usd": 8.535e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-14T00:56:07Z",
+      "exit_price_usd": 8.354e-05,
+      "realized_pnl_usd": -0.212068,
+      "realized_return_percent": -2.1207
+    },
+    {
+      "trade_id": "2026-11-14T00:56:07Z|B2sV1UwWHYrG2QreqcnYnaHks4f1CVYHbLxKBa3cRrgc",
+      "address": "B2sV1UwWHYrG2QreqcnYnaHks4f1CVYHbLxKBa3cRrgc",
+      "name": "Coco coin",
+      "symbol": "COCO",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-14T00:56:07Z",
+      "entry_at": "2026-11-14T00:56:07Z",
+      "status": "open",
+      "scan_market_cap_usd": 105787.11,
+      "entry_price_usd": 0.0001209,
+      "quantity": 82712.9859387924,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001209,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
