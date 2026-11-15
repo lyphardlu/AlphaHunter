@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-15T00:00:23Z",
+  "updated_at": "2026-11-15T16:02:08Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -79,7 +79,8 @@
     "2AE2Ap3eV24jpsjVj9116waj2Amw5RfmxSEoFnktLDU9",
     "B2sV1UwWHYrG2QreqcnYnaHks4f1CVYHbLxKBa3cRrgc",
     "EB3nCaL6wWWLnwqzLqo9kfvakg37nyxFQvtMp2iwNdVv",
-    "GCvXkE97eMkxxTW7bx4cVyxW2ASefbWp2DFAyJnUzeus"
+    "GCvXkE97eMkxxTW7bx4cVyxW2ASefbWp2DFAyJnUzeus",
+    "7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump"
   ],
   "positions": [
     {
@@ -1707,12 +1708,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-15T00:00:01Z",
       "entry_at": "2026-11-15T00:00:01Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 101341.29,
       "entry_price_usd": 0.0001021,
       "quantity": 97943.1929480901,
       "quote_status": "ok",
       "last_price_usd": 0.0001021,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-15T16:02:03Z",
+      "exit_price_usd": 0.0001021,
+      "realized_pnl_usd": 0.0,
+      "realized_return_percent": 0.0
+    },
+    {
+      "trade_id": "2026-11-15T16:02:03Z|7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump",
+      "address": "7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump",
+      "name": "Doge Jensen",
+      "symbol": "DOJE",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-15T16:02:03Z",
+      "entry_at": "2026-11-15T16:02:03Z",
+      "status": "open",
+      "scan_market_cap_usd": 65250.29,
+      "entry_price_usd": 5.244e-05,
+      "quantity": 190694.1266209001,
+      "quote_status": "ok",
+      "last_price_usd": 5.244e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
