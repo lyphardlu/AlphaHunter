@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-17T18:06:33Z",
+  "updated_at": "2026-11-18T02:29:55Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -84,7 +84,8 @@
     "GgDHtSGcXn5YrADnpsQSVHFAa5xLwVEuD7FWeRgvpump",
     "CCWenhTvYrNpVtus5xNmr3dRWippD4zdsTni1t6o417u",
     "4SEUq2brxL61CVoYkXU7XhMhJ7VFstgTT2Z29gLepump",
-    "3K8KgxKAfe4iWcgD2D3wNuyGmet6RsNeusmLkVGRpump"
+    "3K8KgxKAfe4iWcgD2D3wNuyGmet6RsNeusmLkVGRpump",
+    "89h3zA1zcXss24MrnPJNAq6CMwg7njCZc98JFpwrj9fh"
   ],
   "positions": [
     {
@@ -1817,12 +1818,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-17T18:06:05Z",
       "entry_at": "2026-11-17T18:06:05Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 142117.86,
       "entry_price_usd": 0.0001459,
       "quantity": 68540.09595613433,
       "quote_status": "ok",
       "last_price_usd": 0.0001459,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-18T02:29:33Z",
+      "exit_price_usd": 1.682e-06,
+      "realized_pnl_usd": -9.884716,
+      "realized_return_percent": -98.8472
+    },
+    {
+      "trade_id": "2026-11-18T02:29:33Z|89h3zA1zcXss24MrnPJNAq6CMwg7njCZc98JFpwrj9fh",
+      "address": "89h3zA1zcXss24MrnPJNAq6CMwg7njCZc98JFpwrj9fh",
+      "name": "Nadja the Iguana",
+      "symbol": "NADJA",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-18T02:29:33Z",
+      "entry_at": "2026-11-18T02:29:33Z",
+      "status": "open",
+      "scan_market_cap_usd": 57069.73,
+      "entry_price_usd": 5.553e-05,
+      "quantity": 180082.83810552856,
+      "quote_status": "ok",
+      "last_price_usd": 5.553e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
