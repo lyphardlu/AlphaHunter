@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-18T17:45:43Z",
+  "updated_at": "2026-11-19T01:56:24Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -86,7 +86,8 @@
     "4SEUq2brxL61CVoYkXU7XhMhJ7VFstgTT2Z29gLepump",
     "3K8KgxKAfe4iWcgD2D3wNuyGmet6RsNeusmLkVGRpump",
     "89h3zA1zcXss24MrnPJNAq6CMwg7njCZc98JFpwrj9fh",
-    "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump"
+    "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump",
+    "3ZhsX6y2aEYoiwRFCu7mtwuMWSFH654dhyR2aGRVpump"
   ],
   "positions": [
     {
@@ -1861,12 +1862,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-18T17:45:34Z",
       "entry_at": "2026-11-18T17:45:34Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 119689.73,
       "entry_price_usd": 0.0001178,
       "quantity": 84889.64346349746,
       "quote_status": "ok",
       "last_price_usd": 0.0001178,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-19T01:55:43Z",
+      "exit_price_usd": 2.25e-06,
+      "realized_pnl_usd": -9.808998,
+      "realized_return_percent": -98.09
+    },
+    {
+      "trade_id": "2026-11-19T01:55:43Z|3ZhsX6y2aEYoiwRFCu7mtwuMWSFH654dhyR2aGRVpump",
+      "address": "3ZhsX6y2aEYoiwRFCu7mtwuMWSFH654dhyR2aGRVpump",
+      "name": "Wanted Lucia",
+      "symbol": "LUCIA",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-19T01:55:43Z",
+      "entry_at": "2026-11-19T01:55:43Z",
+      "status": "open",
+      "scan_market_cap_usd": 91981.31,
+      "entry_price_usd": 9.294e-05,
+      "quantity": 107596.29868732515,
+      "quote_status": "ok",
+      "last_price_usd": 9.294e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
