@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-20T01:49:34Z",
+  "updated_at": "2026-11-20T17:30:03Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -89,7 +89,8 @@
     "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump",
     "3ZhsX6y2aEYoiwRFCu7mtwuMWSFH654dhyR2aGRVpump",
     "4UrTmgttSgoV49vnQrRjt3gPUcQ2mwHj4gn82b5iZYRT",
-    "9QMn4fKUyaRzCtRETZjCaVzuKdDMWAgKRdGp1nJ7JdQV"
+    "9QMn4fKUyaRzCtRETZjCaVzuKdDMWAgKRdGp1nJ7JdQV",
+    "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump"
   ],
   "positions": [
     {
@@ -1927,12 +1928,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-20T01:49:12Z",
       "entry_at": "2026-11-20T01:49:12Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 120341.05,
       "entry_price_usd": 0.0001193,
       "quantity": 83822.29673093042,
       "quote_status": "ok",
       "last_price_usd": 0.0001193,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-20T17:29:42Z",
+      "exit_price_usd": 0.0001175,
+      "realized_pnl_usd": -0.15088,
+      "realized_return_percent": -1.5088
+    },
+    {
+      "trade_id": "2026-11-20T17:29:42Z|7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump",
+      "address": "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump",
+      "name": "OFFICIALGTA",
+      "symbol": "OGTA",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-20T17:29:42Z",
+      "entry_at": "2026-11-20T17:29:42Z",
+      "status": "open",
+      "scan_market_cap_usd": 128381.21,
+      "entry_price_usd": 0.0001285,
+      "quantity": 77821.01167315175,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001285,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
