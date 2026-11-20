@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-19T17:56:39Z",
+  "updated_at": "2026-11-20T01:49:34Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -88,7 +88,8 @@
     "89h3zA1zcXss24MrnPJNAq6CMwg7njCZc98JFpwrj9fh",
     "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump",
     "3ZhsX6y2aEYoiwRFCu7mtwuMWSFH654dhyR2aGRVpump",
-    "4UrTmgttSgoV49vnQrRjt3gPUcQ2mwHj4gn82b5iZYRT"
+    "4UrTmgttSgoV49vnQrRjt3gPUcQ2mwHj4gn82b5iZYRT",
+    "9QMn4fKUyaRzCtRETZjCaVzuKdDMWAgKRdGp1nJ7JdQV"
   ],
   "positions": [
     {
@@ -1905,12 +1906,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-19T17:56:34Z",
       "entry_at": "2026-11-19T17:56:34Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 87248.33,
       "entry_price_usd": 8.158e-05,
       "quantity": 122579.06349595489,
       "quote_status": "ok",
       "last_price_usd": 8.158e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-20T01:49:12Z",
+      "exit_price_usd": 7.272e-05,
+      "realized_pnl_usd": -1.086051,
+      "realized_return_percent": -10.8605
+    },
+    {
+      "trade_id": "2026-11-20T01:49:12Z|9QMn4fKUyaRzCtRETZjCaVzuKdDMWAgKRdGp1nJ7JdQV",
+      "address": "9QMn4fKUyaRzCtRETZjCaVzuKdDMWAgKRdGp1nJ7JdQV",
+      "name": "It's a fucking rugpull",
+      "symbol": "RUGPULL",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-20T01:49:12Z",
+      "entry_at": "2026-11-20T01:49:12Z",
+      "status": "open",
+      "scan_market_cap_usd": 120341.05,
+      "entry_price_usd": 0.0001193,
+      "quantity": 83822.29673093042,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001193,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
