@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-20T17:30:03Z",
+  "updated_at": "2026-11-21T01:38:06Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -90,7 +90,8 @@
     "3ZhsX6y2aEYoiwRFCu7mtwuMWSFH654dhyR2aGRVpump",
     "4UrTmgttSgoV49vnQrRjt3gPUcQ2mwHj4gn82b5iZYRT",
     "9QMn4fKUyaRzCtRETZjCaVzuKdDMWAgKRdGp1nJ7JdQV",
-    "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump"
+    "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump",
+    "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
   ],
   "positions": [
     {
@@ -1949,12 +1950,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-20T17:29:42Z",
       "entry_at": "2026-11-20T17:29:42Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 128381.21,
       "entry_price_usd": 0.0001285,
       "quantity": 77821.01167315175,
       "quote_status": "ok",
       "last_price_usd": 0.0001285,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-21T01:37:45Z",
+      "exit_price_usd": 2.406e-06,
+      "realized_pnl_usd": -9.812763,
+      "realized_return_percent": -98.1276
+    },
+    {
+      "trade_id": "2026-11-21T01:37:45Z|7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+      "address": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+      "name": "Singularity",
+      "symbol": "Singularity",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-21T01:37:45Z",
+      "entry_at": "2026-11-21T01:37:45Z",
+      "status": "open",
+      "scan_market_cap_usd": 159076.13,
+      "entry_price_usd": 0.0001665,
+      "quantity": 60060.06006006006,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001665,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
