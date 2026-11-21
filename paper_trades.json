@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-21T01:38:06Z",
+  "updated_at": "2026-11-21T16:34:37Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -91,7 +91,8 @@
     "4UrTmgttSgoV49vnQrRjt3gPUcQ2mwHj4gn82b5iZYRT",
     "9QMn4fKUyaRzCtRETZjCaVzuKdDMWAgKRdGp1nJ7JdQV",
     "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump",
-    "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump"
+    "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+    "8EKKRz3V11a5qmbsF3jnXWcUYCg6mzWv9w2E89H3QRZd"
   ],
   "positions": [
     {
@@ -1971,12 +1972,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-21T01:37:45Z",
       "entry_at": "2026-11-21T01:37:45Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 159076.13,
       "entry_price_usd": 0.0001665,
       "quantity": 60060.06006006006,
       "quote_status": "ok",
       "last_price_usd": 0.0001665,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-21T16:34:32Z",
+      "exit_price_usd": 0.0001582,
+      "realized_pnl_usd": -0.498498,
+      "realized_return_percent": -4.985
+    },
+    {
+      "trade_id": "2026-11-21T16:34:32Z|8EKKRz3V11a5qmbsF3jnXWcUYCg6mzWv9w2E89H3QRZd",
+      "address": "8EKKRz3V11a5qmbsF3jnXWcUYCg6mzWv9w2E89H3QRZd",
+      "name": "greg",
+      "symbol": "GREG",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-21T16:34:32Z",
+      "entry_at": "2026-11-21T16:34:32Z",
+      "status": "open",
+      "scan_market_cap_usd": 158474.85,
+      "entry_price_usd": 0.0001638,
+      "quantity": 61050.06105006105,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001638,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
