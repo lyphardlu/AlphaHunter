@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-22T00:31:58Z",
+  "updated_at": "2026-11-22T16:51:39Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -93,7 +93,8 @@
     "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump",
     "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
     "8EKKRz3V11a5qmbsF3jnXWcUYCg6mzWv9w2E89H3QRZd",
-    "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump"
+    "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump",
+    "cGPi4MLVSampkaArWdKErgkzop5zDEfgPM728g9m1d7"
   ],
   "positions": [
     {
@@ -2015,12 +2016,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-22T00:31:36Z",
       "entry_at": "2026-11-22T00:31:36Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 127674.71,
       "entry_price_usd": 0.0001266,
       "quantity": 78988.94154818327,
       "quote_status": "ok",
       "last_price_usd": 0.0001266,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-22T16:51:33Z",
+      "exit_price_usd": 1.885e-06,
+      "realized_pnl_usd": -9.851106,
+      "realized_return_percent": -98.5111
+    },
+    {
+      "trade_id": "2026-11-22T16:51:33Z|cGPi4MLVSampkaArWdKErgkzop5zDEfgPM728g9m1d7",
+      "address": "cGPi4MLVSampkaArWdKErgkzop5zDEfgPM728g9m1d7",
+      "name": "Starcoin",
+      "symbol": "Star",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-22T16:51:33Z",
+      "entry_at": "2026-11-22T16:51:33Z",
+      "status": "open",
+      "scan_market_cap_usd": 131284.96,
+      "entry_price_usd": 0.0001294,
+      "quantity": 77279.75270479135,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001294,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
