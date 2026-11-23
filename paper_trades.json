@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T00:59:36Z",
+  "updated_at": "2026-11-23T20:49:49Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -95,7 +95,8 @@
     "8EKKRz3V11a5qmbsF3jnXWcUYCg6mzWv9w2E89H3QRZd",
     "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump",
     "cGPi4MLVSampkaArWdKErgkzop5zDEfgPM728g9m1d7",
-    "9KDtBfrN2Qgu28btWjmafruSUHL2iNd6VfRRNgbs1dYa"
+    "9KDtBfrN2Qgu28btWjmafruSUHL2iNd6VfRRNgbs1dYa",
+    "GJXobGoNVRBrj6vbZK6ibXk3Ff5UgvynJYDyo4DmzfAt"
   ],
   "positions": [
     {
@@ -2059,12 +2060,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-23T00:59:21Z",
       "entry_at": "2026-11-23T00:59:21Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 130256.95,
       "entry_price_usd": 0.0001181,
       "quantity": 84674.0050804403,
       "quote_status": "ok",
       "last_price_usd": 0.0001181,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-23T20:49:47Z",
+      "exit_price_usd": 7.796e-05,
+      "realized_pnl_usd": -3.398815,
+      "realized_return_percent": -33.9881
+    },
+    {
+      "trade_id": "2026-11-23T20:49:47Z|GJXobGoNVRBrj6vbZK6ibXk3Ff5UgvynJYDyo4DmzfAt",
+      "address": "GJXobGoNVRBrj6vbZK6ibXk3Ff5UgvynJYDyo4DmzfAt",
+      "name": "yarl",
+      "symbol": "YARL",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-23T20:49:47Z",
+      "entry_at": "2026-11-23T20:49:47Z",
+      "status": "open",
+      "scan_market_cap_usd": 61215.14,
+      "entry_price_usd": 7.123e-05,
+      "quantity": 140390.28499227855,
+      "quote_status": "ok",
+      "last_price_usd": 7.123e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
