@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-22T16:51:39Z",
+  "updated_at": "2026-11-23T00:59:36Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -94,7 +94,8 @@
     "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
     "8EKKRz3V11a5qmbsF3jnXWcUYCg6mzWv9w2E89H3QRZd",
     "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump",
-    "cGPi4MLVSampkaArWdKErgkzop5zDEfgPM728g9m1d7"
+    "cGPi4MLVSampkaArWdKErgkzop5zDEfgPM728g9m1d7",
+    "9KDtBfrN2Qgu28btWjmafruSUHL2iNd6VfRRNgbs1dYa"
   ],
   "positions": [
     {
@@ -2037,12 +2038,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-22T16:51:33Z",
       "entry_at": "2026-11-22T16:51:33Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 131284.96,
       "entry_price_usd": 0.0001294,
       "quantity": 77279.75270479135,
       "quote_status": "ok",
       "last_price_usd": 0.0001294,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-23T00:59:21Z",
+      "exit_price_usd": 0.0001218,
+      "realized_pnl_usd": -0.587326,
+      "realized_return_percent": -5.8733
+    },
+    {
+      "trade_id": "2026-11-23T00:59:21Z|9KDtBfrN2Qgu28btWjmafruSUHL2iNd6VfRRNgbs1dYa",
+      "address": "9KDtBfrN2Qgu28btWjmafruSUHL2iNd6VfRRNgbs1dYa",
+      "name": "Helius Inu",
+      "symbol": "HI",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-23T00:59:21Z",
+      "entry_at": "2026-11-23T00:59:21Z",
+      "status": "open",
+      "scan_market_cap_usd": 130256.95,
+      "entry_price_usd": 0.0001181,
+      "quantity": 84674.0050804403,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001181,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
