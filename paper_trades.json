@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T20:49:49Z",
+  "updated_at": "2026-11-24T04:52:32Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -96,7 +96,8 @@
     "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump",
     "cGPi4MLVSampkaArWdKErgkzop5zDEfgPM728g9m1d7",
     "9KDtBfrN2Qgu28btWjmafruSUHL2iNd6VfRRNgbs1dYa",
-    "GJXobGoNVRBrj6vbZK6ibXk3Ff5UgvynJYDyo4DmzfAt"
+    "GJXobGoNVRBrj6vbZK6ibXk3Ff5UgvynJYDyo4DmzfAt",
+    "GLSDLathUNJkyMuMjPJTw8XZvcn3YeW6mPq2koi3P4xx"
   ],
   "positions": [
     {
@@ -2081,12 +2082,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-23T20:49:47Z",
       "entry_at": "2026-11-23T20:49:47Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 61215.14,
       "entry_price_usd": 7.123e-05,
       "quantity": 140390.28499227855,
       "quote_status": "ok",
       "last_price_usd": 7.123e-05,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-24T04:52:27Z",
+      "exit_price_usd": 6.368e-06,
+      "realized_pnl_usd": -9.105995,
+      "realized_return_percent": -91.0599
+    },
+    {
+      "trade_id": "2026-11-24T04:52:27Z|GLSDLathUNJkyMuMjPJTw8XZvcn3YeW6mPq2koi3P4xx",
+      "address": "GLSDLathUNJkyMuMjPJTw8XZvcn3YeW6mPq2koi3P4xx",
+      "name": "Pondering Patrick",
+      "symbol": "PONDER",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-24T04:52:27Z",
+      "entry_at": "2026-11-24T04:52:27Z",
+      "status": "open",
+      "scan_market_cap_usd": 118897.99,
+      "entry_price_usd": 0.0001479,
+      "quantity": 67613.2521974307,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001479,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
