@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T04:52:32Z",
+  "updated_at": "2026-11-24T19:54:25Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -97,7 +97,8 @@
     "cGPi4MLVSampkaArWdKErgkzop5zDEfgPM728g9m1d7",
     "9KDtBfrN2Qgu28btWjmafruSUHL2iNd6VfRRNgbs1dYa",
     "GJXobGoNVRBrj6vbZK6ibXk3Ff5UgvynJYDyo4DmzfAt",
-    "GLSDLathUNJkyMuMjPJTw8XZvcn3YeW6mPq2koi3P4xx"
+    "GLSDLathUNJkyMuMjPJTw8XZvcn3YeW6mPq2koi3P4xx",
+    "6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump"
   ],
   "positions": [
     {
@@ -2103,12 +2104,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-24T04:52:27Z",
       "entry_at": "2026-11-24T04:52:27Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 118897.99,
       "entry_price_usd": 0.0001479,
       "quantity": 67613.2521974307,
       "quote_status": "ok",
       "last_price_usd": 0.0001479,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-24T19:54:16Z",
+      "exit_price_usd": 0.0001436,
+      "realized_pnl_usd": -0.290737,
+      "realized_return_percent": -2.9074
+    },
+    {
+      "trade_id": "2026-11-24T19:54:16Z|6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump",
+      "address": "6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump",
+      "name": "The White Bull",
+      "symbol": "Slingoor",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-24T19:54:16Z",
+      "entry_at": "2026-11-24T19:54:16Z",
+      "status": "open",
+      "scan_market_cap_usd": 173041.64,
+      "entry_price_usd": 0.0001669,
+      "quantity": 59916.117435590175,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001669,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
