@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T03:37:09Z",
+  "updated_at": "2026-11-25T18:57:11Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -99,7 +99,8 @@
     "GJXobGoNVRBrj6vbZK6ibXk3Ff5UgvynJYDyo4DmzfAt",
     "GLSDLathUNJkyMuMjPJTw8XZvcn3YeW6mPq2koi3P4xx",
     "6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump",
-    "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump"
+    "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump",
+    "6F2FyeyphDn62TFkXXpisUCohotPArgiM1kVXsPNpump"
   ],
   "positions": [
     {
@@ -2147,12 +2148,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-25T03:37:01Z",
       "entry_at": "2026-11-25T03:37:01Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 191384.2,
       "entry_price_usd": 0.0001903,
       "quantity": 52548.60746190226,
       "quote_status": "ok",
       "last_price_usd": 0.0001903,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-25T18:57:02Z",
+      "exit_price_usd": 1.375e-06,
+      "realized_pnl_usd": -9.927746,
+      "realized_return_percent": -99.2775
+    },
+    {
+      "trade_id": "2026-11-25T18:57:02Z|6F2FyeyphDn62TFkXXpisUCohotPArgiM1kVXsPNpump",
+      "address": "6F2FyeyphDn62TFkXXpisUCohotPArgiM1kVXsPNpump",
+      "name": "Grok Claudia",
+      "symbol": "GRAUDIA",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-25T18:57:02Z",
+      "entry_at": "2026-11-25T18:57:02Z",
+      "status": "open",
+      "scan_market_cap_usd": 180516.99,
+      "entry_price_usd": 0.0001711,
+      "quantity": 58445.35359438924,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001711,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
