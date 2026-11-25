@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T19:54:25Z",
+  "updated_at": "2026-11-25T03:37:09Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -98,7 +98,8 @@
     "9KDtBfrN2Qgu28btWjmafruSUHL2iNd6VfRRNgbs1dYa",
     "GJXobGoNVRBrj6vbZK6ibXk3Ff5UgvynJYDyo4DmzfAt",
     "GLSDLathUNJkyMuMjPJTw8XZvcn3YeW6mPq2koi3P4xx",
-    "6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump"
+    "6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump",
+    "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump"
   ],
   "positions": [
     {
@@ -2125,12 +2126,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-24T19:54:16Z",
       "entry_at": "2026-11-24T19:54:16Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 173041.64,
       "entry_price_usd": 0.0001669,
       "quantity": 59916.117435590175,
       "quote_status": "ok",
       "last_price_usd": 0.0001669,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-25T03:37:01Z",
+      "exit_price_usd": 1.351e-06,
+      "realized_pnl_usd": -9.919053,
+      "realized_return_percent": -99.1905
+    },
+    {
+      "trade_id": "2026-11-25T03:37:01Z|CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump",
+      "address": "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump",
+      "name": "ChristmASS",
+      "symbol": "ChristmASS",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-25T03:37:01Z",
+      "entry_at": "2026-11-25T03:37:01Z",
+      "status": "open",
+      "scan_market_cap_usd": 191384.2,
+      "entry_price_usd": 0.0001903,
+      "quantity": 52548.60746190226,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001903,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
