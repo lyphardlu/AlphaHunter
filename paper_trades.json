@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T02:57:17Z",
+  "updated_at": "2026-11-26T18:48:11Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -101,7 +101,8 @@
     "6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump",
     "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump",
     "6F2FyeyphDn62TFkXXpisUCohotPArgiM1kVXsPNpump",
-    "2bheSf5nmxZYFSb56zAHQPrKfR9By6ZGrJBjLGaLPDmP"
+    "2bheSf5nmxZYFSb56zAHQPrKfR9By6ZGrJBjLGaLPDmP",
+    "9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump"
   ],
   "positions": [
     {
@@ -2191,12 +2192,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-26T02:56:51Z",
       "entry_at": "2026-11-26T02:56:51Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 182063.42,
       "entry_price_usd": 0.0001763,
       "quantity": 56721.497447532616,
       "quote_status": "ok",
       "last_price_usd": 0.0001763,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-26T18:48:03Z",
+      "exit_price_usd": 0.0001363,
+      "realized_pnl_usd": -2.26886,
+      "realized_return_percent": -22.6886
+    },
+    {
+      "trade_id": "2026-11-26T18:48:03Z|9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump",
+      "address": "9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump",
+      "name": "Jimmy Santa",
+      "symbol": "JANTA",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-26T18:48:03Z",
+      "entry_at": "2026-11-26T18:48:03Z",
+      "status": "open",
+      "scan_market_cap_usd": 116701.33,
+      "entry_price_usd": 0.0001455,
+      "quantity": 68728.52233676975,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001455,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
