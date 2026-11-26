@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T18:57:11Z",
+  "updated_at": "2026-11-26T02:57:17Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -100,7 +100,8 @@
     "GLSDLathUNJkyMuMjPJTw8XZvcn3YeW6mPq2koi3P4xx",
     "6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump",
     "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump",
-    "6F2FyeyphDn62TFkXXpisUCohotPArgiM1kVXsPNpump"
+    "6F2FyeyphDn62TFkXXpisUCohotPArgiM1kVXsPNpump",
+    "2bheSf5nmxZYFSb56zAHQPrKfR9By6ZGrJBjLGaLPDmP"
   ],
   "positions": [
     {
@@ -2169,12 +2170,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-25T18:57:02Z",
       "entry_at": "2026-11-25T18:57:02Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 180516.99,
       "entry_price_usd": 0.0001711,
       "quantity": 58445.35359438924,
       "quote_status": "ok",
       "last_price_usd": 0.0001711,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-26T02:56:51Z",
+      "exit_price_usd": 1.32e-06,
+      "realized_pnl_usd": -9.922852,
+      "realized_return_percent": -99.2285
+    },
+    {
+      "trade_id": "2026-11-26T02:56:51Z|2bheSf5nmxZYFSb56zAHQPrKfR9By6ZGrJBjLGaLPDmP",
+      "address": "2bheSf5nmxZYFSb56zAHQPrKfR9By6ZGrJBjLGaLPDmP",
+      "name": "UseStuds",
+      "symbol": "STUDS",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-26T02:56:51Z",
+      "entry_at": "2026-11-26T02:56:51Z",
+      "status": "open",
+      "scan_market_cap_usd": 182063.42,
+      "entry_price_usd": 0.0001763,
+      "quantity": 56721.497447532616,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001763,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
