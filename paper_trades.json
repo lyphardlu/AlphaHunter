@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T18:48:11Z",
+  "updated_at": "2026-11-27T02:59:16Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -102,7 +102,8 @@
     "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump",
     "6F2FyeyphDn62TFkXXpisUCohotPArgiM1kVXsPNpump",
     "2bheSf5nmxZYFSb56zAHQPrKfR9By6ZGrJBjLGaLPDmP",
-    "9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump"
+    "9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump",
+    "Cp5XEsB6nnZgayFHSofRkfCdHaSoswoFx8juj8Qzf6u2"
   ],
   "positions": [
     {
@@ -2213,12 +2214,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-26T18:48:03Z",
       "entry_at": "2026-11-26T18:48:03Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 116701.33,
       "entry_price_usd": 0.0001455,
       "quantity": 68728.52233676975,
       "quote_status": "ok",
       "last_price_usd": 0.0001455,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-27T02:59:13Z",
+      "exit_price_usd": 1.343e-06,
+      "realized_pnl_usd": -9.907698,
+      "realized_return_percent": -99.077
+    },
+    {
+      "trade_id": "2026-11-27T02:59:13Z|Cp5XEsB6nnZgayFHSofRkfCdHaSoswoFx8juj8Qzf6u2",
+      "address": "Cp5XEsB6nnZgayFHSofRkfCdHaSoswoFx8juj8Qzf6u2",
+      "name": "Snowball",
+      "symbol": "Snowball",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-27T02:59:13Z",
+      "entry_at": "2026-11-27T02:59:13Z",
+      "status": "open",
+      "scan_market_cap_usd": 134945.12,
+      "entry_price_usd": 0.0001438,
+      "quantity": 69541.02920723226,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001438,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
