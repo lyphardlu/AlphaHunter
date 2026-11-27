@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T02:59:16Z",
+  "updated_at": "2026-11-27T18:39:49Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -103,7 +103,8 @@
     "6F2FyeyphDn62TFkXXpisUCohotPArgiM1kVXsPNpump",
     "2bheSf5nmxZYFSb56zAHQPrKfR9By6ZGrJBjLGaLPDmP",
     "9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump",
-    "Cp5XEsB6nnZgayFHSofRkfCdHaSoswoFx8juj8Qzf6u2"
+    "Cp5XEsB6nnZgayFHSofRkfCdHaSoswoFx8juj8Qzf6u2",
+    "4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump"
   ],
   "positions": [
     {
@@ -2235,12 +2236,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-27T02:59:13Z",
       "entry_at": "2026-11-27T02:59:13Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 134945.12,
       "entry_price_usd": 0.0001438,
       "quantity": 69541.02920723226,
       "quote_status": "ok",
       "last_price_usd": 0.0001438,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-27T18:39:47Z",
+      "exit_price_usd": 0.0008076,
+      "realized_pnl_usd": 46.161335,
+      "realized_return_percent": 461.6134
+    },
+    {
+      "trade_id": "2026-11-27T18:39:47Z|4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump",
+      "address": "4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump",
+      "name": "Viking Cat",
+      "symbol": "VICAT",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-27T18:39:47Z",
+      "entry_at": "2026-11-27T18:39:47Z",
+      "status": "open",
+      "scan_market_cap_usd": 167926.77,
+      "entry_price_usd": 0.0001333,
+      "quantity": 75018.75468867217,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001333,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
