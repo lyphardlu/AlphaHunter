@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T18:39:49Z",
+  "updated_at": "2026-11-28T02:50:36Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -104,7 +104,8 @@
     "2bheSf5nmxZYFSb56zAHQPrKfR9By6ZGrJBjLGaLPDmP",
     "9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump",
     "Cp5XEsB6nnZgayFHSofRkfCdHaSoswoFx8juj8Qzf6u2",
-    "4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump"
+    "4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump",
+    "8sAxwsNzhRj6LF5npy1HtPir94TzSgP1QaczUmGcpump"
   ],
   "positions": [
     {
@@ -2257,12 +2258,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-27T18:39:47Z",
       "entry_at": "2026-11-27T18:39:47Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 167926.77,
       "entry_price_usd": 0.0001333,
       "quantity": 75018.75468867217,
       "quote_status": "ok",
       "last_price_usd": 0.0001333,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-28T02:50:15Z",
+      "exit_price_usd": 1.505e-06,
+      "realized_pnl_usd": -9.887097,
+      "realized_return_percent": -98.871
+    },
+    {
+      "trade_id": "2026-11-28T02:50:15Z|8sAxwsNzhRj6LF5npy1HtPir94TzSgP1QaczUmGcpump",
+      "address": "8sAxwsNzhRj6LF5npy1HtPir94TzSgP1QaczUmGcpump",
+      "name": "Meme Card",
+      "symbol": "MEMECARD",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-28T02:50:15Z",
+      "entry_at": "2026-11-28T02:50:15Z",
+      "status": "open",
+      "scan_market_cap_usd": 166644.68,
+      "entry_price_usd": 0.0001664,
+      "quantity": 60096.153846153844,
+      "quote_status": "ok",
+      "last_price_usd": 0.0001664,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
