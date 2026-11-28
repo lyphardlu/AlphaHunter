@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-28T02:50:36Z",
+  "updated_at": "2026-11-28T17:20:37Z",
   "seen_addresses": [
     "A2uS1HkLjLuLJew9V2J6igVPbHPLBvXCPLJsNFtPggJk",
     "CeVe2NXTuKmdD5uPVAQwd5Lv84dgnRCQ2qJFDmZoEvMo",
@@ -105,7 +105,8 @@
     "9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump",
     "Cp5XEsB6nnZgayFHSofRkfCdHaSoswoFx8juj8Qzf6u2",
     "4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump",
-    "8sAxwsNzhRj6LF5npy1HtPir94TzSgP1QaczUmGcpump"
+    "8sAxwsNzhRj6LF5npy1HtPir94TzSgP1QaczUmGcpump",
+    "FnCCH9Jcm6wiaRJmQYzVAuMk5FkHZkwtXxxaH3V2yehR"
   ],
   "positions": [
     {
@@ -2279,12 +2280,33 @@
       "invested_usd": 10.0,
       "scan_at": "2026-11-28T02:50:15Z",
       "entry_at": "2026-11-28T02:50:15Z",
-      "status": "open",
+      "status": "closed",
       "scan_market_cap_usd": 166644.68,
       "entry_price_usd": 0.0001664,
       "quantity": 60096.153846153844,
       "quote_status": "ok",
       "last_price_usd": 0.0001664,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_percent": 0.0,
+      "exit_at": "2026-11-28T17:20:34Z",
+      "exit_price_usd": 1.69e-06,
+      "realized_pnl_usd": -9.898438,
+      "realized_return_percent": -98.9844
+    },
+    {
+      "trade_id": "2026-11-28T17:20:34Z|FnCCH9Jcm6wiaRJmQYzVAuMk5FkHZkwtXxxaH3V2yehR",
+      "address": "FnCCH9Jcm6wiaRJmQYzVAuMk5FkHZkwtXxxaH3V2yehR",
+      "name": "Charity Coin",
+      "symbol": "CHARITY",
+      "invested_usd": 10.0,
+      "scan_at": "2026-11-28T17:20:34Z",
+      "entry_at": "2026-11-28T17:20:34Z",
+      "status": "open",
+      "scan_market_cap_usd": 65133.78,
+      "entry_price_usd": 6.685e-05,
+      "quantity": 149588.63126402395,
+      "quote_status": "ok",
+      "last_price_usd": 6.685e-05,
       "unrealized_pnl_usd": 0.0,
       "unrealized_return_percent": 0.0
     }
